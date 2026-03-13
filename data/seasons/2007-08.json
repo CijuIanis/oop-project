@@ -1,0 +1,4926 @@
+{
+  "an": "2007-08",
+  "campioana": "Boston Celtics",
+  "echipe": [
+    {
+      "nume": "Celtics",
+      "oras": "Boston",
+      "conferinta": "East",
+      "salaryCap": 73.0,
+      "jucatori": [
+        {
+          "nume": "Paul Pierce",
+          "varsta": 30,
+          "pozitie": "SF",
+          "ppg": 19.6,
+          "apg": 4.5,
+          "rpg": 5.1,
+          "contract": {
+            "salariu": 12.0,
+            "durata": 3,
+            "tip": "MAX"
+          }
+        },
+        {
+          "nume": "Kevin Garnett",
+          "varsta": 31,
+          "pozitie": "PF",
+          "ppg": 18.8,
+          "apg": 3.4,
+          "rpg": 9.2,
+          "contract": {
+            "salariu": 24.75,
+            "durata": 3,
+            "tip": "MAX"
+          }
+        },
+        {
+          "nume": "Ray Allen",
+          "varsta": 32,
+          "pozitie": "SG",
+          "ppg": 17.4,
+          "apg": 3.1,
+          "rpg": 3.7,
+          "contract": {
+            "salariu": 18.0,
+            "durata": 2,
+            "tip": "MAX"
+          }
+        },
+        {
+          "nume": "Rajon Rondo",
+          "varsta": 21,
+          "pozitie": "PG",
+          "ppg": 10.6,
+          "apg": 5.1,
+          "rpg": 4.2,
+          "contract": {
+            "salariu": 0.8,
+            "durata": 3,
+            "tip": "ROOKIE"
+          }
+        },
+        {
+          "nume": "Kendrick Perkins",
+          "varsta": 22,
+          "pozitie": "C",
+          "ppg": 6.4,
+          "apg": 0.8,
+          "rpg": 5.8,
+          "contract": {
+            "salariu": 3.0,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "James Posey",
+          "varsta": 30,
+          "pozitie": "SF",
+          "ppg": 8.0,
+          "apg": 1.5,
+          "rpg": 3.5,
+          "contract": {
+            "salariu": 3.0,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Leon Powe",
+          "varsta": 22,
+          "pozitie": "PF",
+          "ppg": 7.9,
+          "apg": 0.8,
+          "rpg": 4.9,
+          "contract": {
+            "salariu": 0.7,
+            "durata": 1,
+            "tip": "ROOKIE"
+          }
+        },
+        {
+          "nume": "Eddie House",
+          "varsta": 29,
+          "pozitie": "SG",
+          "ppg": 9.0,
+          "apg": 2.0,
+          "rpg": 2.0,
+          "contract": {
+            "salariu": 2.0,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "P.J. Brown",
+          "varsta": 39,
+          "pozitie": "PF",
+          "ppg": 5.0,
+          "apg": 0.8,
+          "rpg": 4.5,
+          "contract": {
+            "salariu": 1.5,
+            "durata": 1,
+            "tip": "MINIMUM"
+          }
+        },
+        {
+          "nume": "Sam Cassell",
+          "varsta": 38,
+          "pozitie": "PG",
+          "ppg": 9.0,
+          "apg": 3.5,
+          "rpg": 2.0,
+          "contract": {
+            "salariu": 2.0,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Tony Allen",
+          "varsta": 25,
+          "pozitie": "SG",
+          "ppg": 6.5,
+          "apg": 1.5,
+          "rpg": 2.5,
+          "contract": {
+            "salariu": 2.0,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Glen Davis",
+          "varsta": 22,
+          "pozitie": "PF",
+          "ppg": 5.5,
+          "apg": 0.5,
+          "rpg": 4.0,
+          "contract": {
+            "salariu": 0.8,
+            "durata": 1,
+            "tip": "ROOKIE"
+          }
+        }
+      ]
+    },
+    {
+      "nume": "Lakers",
+      "oras": "Los Angeles",
+      "conferinta": "West",
+      "salaryCap": 73.0,
+      "jucatori": [
+        {
+          "nume": "Kobe Bryant",
+          "varsta": 29,
+          "pozitie": "SG",
+          "ppg": 28.3,
+          "apg": 5.4,
+          "rpg": 6.3,
+          "contract": {
+            "salariu": 21.26,
+            "durata": 3,
+            "tip": "MAX"
+          }
+        },
+        {
+          "nume": "Pau Gasol",
+          "varsta": 27,
+          "pozitie": "PF",
+          "ppg": 18.8,
+          "apg": 3.5,
+          "rpg": 8.9,
+          "contract": {
+            "salariu": 14.0,
+            "durata": 1,
+            "tip": "MAX"
+          }
+        },
+        {
+          "nume": "Lamar Odom",
+          "varsta": 28,
+          "pozitie": "SF",
+          "ppg": 13.4,
+          "apg": 4.1,
+          "rpg": 9.6,
+          "contract": {
+            "salariu": 10.0,
+            "durata": 1,
+            "tip": "MAX"
+          }
+        },
+        {
+          "nume": "Derek Fisher",
+          "varsta": 33,
+          "pozitie": "PG",
+          "ppg": 9.8,
+          "apg": 2.7,
+          "rpg": 2.5,
+          "contract": {
+            "salariu": 5.0,
+            "durata": 2,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Vladimir Radmanovic",
+          "varsta": 27,
+          "pozitie": "SF",
+          "ppg": 9.0,
+          "apg": 1.5,
+          "rpg": 4.5,
+          "contract": {
+            "salariu": 7.0,
+            "durata": 3,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Andrew Bynum",
+          "varsta": 20,
+          "pozitie": "C",
+          "ppg": 9.0,
+          "apg": 0.8,
+          "rpg": 7.0,
+          "contract": {
+            "salariu": 3.0,
+            "durata": 3,
+            "tip": "ROOKIE"
+          }
+        },
+        {
+          "nume": "Jordan Farmar",
+          "varsta": 21,
+          "pozitie": "PG",
+          "ppg": 7.5,
+          "apg": 3.5,
+          "rpg": 1.5,
+          "contract": {
+            "salariu": 0.8,
+            "durata": 1,
+            "tip": "ROOKIE"
+          }
+        },
+        {
+          "nume": "Luke Walton",
+          "varsta": 27,
+          "pozitie": "SF",
+          "ppg": 5.5,
+          "apg": 3.5,
+          "rpg": 3.0,
+          "contract": {
+            "salariu": 5.5,
+            "durata": 2,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Ronny Turiaf",
+          "varsta": 25,
+          "pozitie": "C",
+          "ppg": 5.0,
+          "apg": 0.5,
+          "rpg": 4.0,
+          "contract": {
+            "salariu": 1.0,
+            "durata": 2,
+            "tip": "MINIMUM"
+          }
+        },
+        {
+          "nume": "Chris Mihm",
+          "varsta": 28,
+          "pozitie": "C",
+          "ppg": 4.0,
+          "apg": 0.5,
+          "rpg": 3.5,
+          "contract": {
+            "salariu": 4.0,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Sasha Vujacic",
+          "varsta": 23,
+          "pozitie": "SG",
+          "ppg": 7.0,
+          "apg": 1.5,
+          "rpg": 1.5,
+          "contract": {
+            "salariu": 2.0,
+            "durata": 2,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Maurice Evans",
+          "varsta": 28,
+          "pozitie": "SF",
+          "ppg": 5.5,
+          "apg": 1.0,
+          "rpg": 2.5,
+          "contract": {
+            "salariu": 1.5,
+            "durata": 1,
+            "tip": "MINIMUM"
+          }
+        }
+      ]
+    },
+    {
+      "nume": "Pistons",
+      "oras": "Detroit",
+      "conferinta": "East",
+      "salaryCap": 73.0,
+      "jucatori": [
+        {
+          "nume": "Chauncey Billups",
+          "varsta": 31,
+          "pozitie": "PG",
+          "ppg": 17.2,
+          "apg": 6.3,
+          "rpg": 3.8,
+          "contract": {
+            "salariu": 11.0,
+            "durata": 2,
+            "tip": "MAX"
+          }
+        },
+        {
+          "nume": "Richard Hamilton",
+          "varsta": 29,
+          "pozitie": "SG",
+          "ppg": 19.5,
+          "apg": 2.5,
+          "rpg": 3.5,
+          "contract": {
+            "salariu": 11.0,
+            "durata": 4,
+            "tip": "MAX"
+          }
+        },
+        {
+          "nume": "Tayshaun Prince",
+          "varsta": 27,
+          "pozitie": "SF",
+          "ppg": 13.8,
+          "apg": 2.8,
+          "rpg": 5.5,
+          "contract": {
+            "salariu": 7.0,
+            "durata": 4,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Rasheed Wallace",
+          "varsta": 33,
+          "pozitie": "PF",
+          "ppg": 12.5,
+          "apg": 2.0,
+          "rpg": 6.5,
+          "contract": {
+            "salariu": 13.0,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Antonio McDyess",
+          "varsta": 33,
+          "pozitie": "PF",
+          "ppg": 9.5,
+          "apg": 1.5,
+          "rpg": 6.5,
+          "contract": {
+            "salariu": 5.5,
+            "durata": 2,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Rodney Stuckey",
+          "varsta": 21,
+          "pozitie": "PG",
+          "ppg": 10.5,
+          "apg": 4.5,
+          "rpg": 2.5,
+          "contract": {
+            "salariu": 1.0,
+            "durata": 3,
+            "tip": "ROOKIE"
+          }
+        },
+        {
+          "nume": "Jason Maxiell",
+          "varsta": 24,
+          "pozitie": "PF",
+          "ppg": 7.5,
+          "apg": 0.8,
+          "rpg": 5.5,
+          "contract": {
+            "salariu": 2.0,
+            "durata": 3,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Dale Davis",
+          "varsta": 38,
+          "pozitie": "PF",
+          "ppg": 4.5,
+          "apg": 0.8,
+          "rpg": 5.5,
+          "contract": {
+            "salariu": 1.5,
+            "durata": 1,
+            "tip": "MINIMUM"
+          }
+        },
+        {
+          "nume": "Amir Johnson",
+          "varsta": 20,
+          "pozitie": "PF",
+          "ppg": 3.5,
+          "apg": 0.5,
+          "rpg": 3.5,
+          "contract": {
+            "salariu": 0.8,
+            "durata": 1,
+            "tip": "ROOKIE"
+          }
+        },
+        {
+          "nume": "Arron Afflalo",
+          "varsta": 22,
+          "pozitie": "SG",
+          "ppg": 5.5,
+          "apg": 1.0,
+          "rpg": 1.5,
+          "contract": {
+            "salariu": 1.0,
+            "durata": 3,
+            "tip": "ROOKIE"
+          }
+        },
+        {
+          "nume": "Jarvis Hayes",
+          "varsta": 27,
+          "pozitie": "SG",
+          "ppg": 6.5,
+          "apg": 1.0,
+          "rpg": 2.5,
+          "contract": {
+            "salariu": 2.5,
+            "durata": 1,
+            "tip": "MINIMUM"
+          }
+        },
+        {
+          "nume": "George Evans",
+          "varsta": 25,
+          "pozitie": "PG",
+          "ppg": 2.5,
+          "apg": 1.5,
+          "rpg": 1.0,
+          "contract": {
+            "salariu": 0.5,
+            "durata": 1,
+            "tip": "MINIMUM"
+          }
+        }
+      ]
+    },
+    {
+      "nume": "Magic",
+      "oras": "Orlando",
+      "conferinta": "East",
+      "salaryCap": 73.0,
+      "jucatori": [
+        {
+          "nume": "Dwight Howard",
+          "varsta": 22,
+          "pozitie": "C",
+          "ppg": 20.7,
+          "apg": 1.3,
+          "rpg": 14.2,
+          "contract": {
+            "salariu": 4.6,
+            "durata": 3,
+            "tip": "MAX"
+          }
+        },
+        {
+          "nume": "Hedo Turkoglu",
+          "varsta": 28,
+          "pozitie": "SF",
+          "ppg": 19.5,
+          "apg": 5.5,
+          "rpg": 5.7,
+          "contract": {
+            "salariu": 7.0,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Rashard Lewis",
+          "varsta": 28,
+          "pozitie": "PF",
+          "ppg": 18.3,
+          "apg": 2.0,
+          "rpg": 5.5,
+          "contract": {
+            "salariu": 20.0,
+            "durata": 6,
+            "tip": "MAX"
+          }
+        },
+        {
+          "nume": "Jameer Nelson",
+          "varsta": 25,
+          "pozitie": "PG",
+          "ppg": 14.8,
+          "apg": 5.3,
+          "rpg": 3.2,
+          "contract": {
+            "salariu": 3.0,
+            "durata": 4,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Mickael Pietrus",
+          "varsta": 25,
+          "pozitie": "SG",
+          "ppg": 10.5,
+          "apg": 2.0,
+          "rpg": 3.0,
+          "contract": {
+            "salariu": 4.5,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Tony Battie",
+          "varsta": 32,
+          "pozitie": "C",
+          "ppg": 7.0,
+          "apg": 1.0,
+          "rpg": 6.0,
+          "contract": {
+            "salariu": 4.5,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Darko Milicic",
+          "varsta": 22,
+          "pozitie": "C",
+          "ppg": 7.5,
+          "apg": 1.0,
+          "rpg": 5.5,
+          "contract": {
+            "salariu": 4.5,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Carlos Arroyo",
+          "varsta": 28,
+          "pozitie": "PG",
+          "ppg": 8.5,
+          "apg": 4.5,
+          "rpg": 2.5,
+          "contract": {
+            "salariu": 3.5,
+            "durata": 2,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Brian Cook",
+          "varsta": 26,
+          "pozitie": "PF",
+          "ppg": 7.0,
+          "apg": 1.0,
+          "rpg": 4.0,
+          "contract": {
+            "salariu": 2.5,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Pat Garrity",
+          "varsta": 32,
+          "pozitie": "SF",
+          "ppg": 3.5,
+          "apg": 0.5,
+          "rpg": 2.0,
+          "contract": {
+            "salariu": 2.5,
+            "durata": 1,
+            "tip": "MINIMUM"
+          }
+        },
+        {
+          "nume": "Keyon Dooling",
+          "varsta": 27,
+          "pozitie": "PG",
+          "ppg": 6.5,
+          "apg": 3.5,
+          "rpg": 2.0,
+          "contract": {
+            "salariu": 3.0,
+            "durata": 2,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Brandon Bass",
+          "varsta": 23,
+          "pozitie": "PF",
+          "ppg": 4.5,
+          "apg": 0.5,
+          "rpg": 3.5,
+          "contract": {
+            "salariu": 0.7,
+            "durata": 1,
+            "tip": "ROOKIE"
+          }
+        }
+      ]
+    },
+    {
+      "nume": "Cavaliers",
+      "oras": "Cleveland",
+      "conferinta": "East",
+      "salaryCap": 73.0,
+      "jucatori": [
+        {
+          "nume": "LeBron James",
+          "varsta": 23,
+          "pozitie": "SF",
+          "ppg": 30.0,
+          "apg": 7.2,
+          "rpg": 7.9,
+          "contract": {
+            "salariu": 13.04,
+            "durata": 3,
+            "tip": "MAX"
+          }
+        },
+        {
+          "nume": "Zydrunas Ilgauskas",
+          "varsta": 32,
+          "pozitie": "C",
+          "ppg": 13.5,
+          "apg": 1.5,
+          "rpg": 7.5,
+          "contract": {
+            "salariu": 11.8,
+            "durata": 1,
+            "tip": "MAX"
+          }
+        },
+        {
+          "nume": "Drew Gooden",
+          "varsta": 25,
+          "pozitie": "PF",
+          "ppg": 12.5,
+          "apg": 1.5,
+          "rpg": 8.0,
+          "contract": {
+            "salariu": 6.0,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Daniel Gibson",
+          "varsta": 21,
+          "pozitie": "SG",
+          "ppg": 9.5,
+          "apg": 2.5,
+          "rpg": 2.5,
+          "contract": {
+            "salariu": 1.0,
+            "durata": 3,
+            "tip": "ROOKIE"
+          }
+        },
+        {
+          "nume": "Larry Hughes",
+          "varsta": 28,
+          "pozitie": "SG",
+          "ppg": 12.0,
+          "apg": 3.5,
+          "rpg": 3.5,
+          "contract": {
+            "salariu": 12.5,
+            "durata": 1,
+            "tip": "MAX"
+          }
+        },
+        {
+          "nume": "Donyell Marshall",
+          "varsta": 34,
+          "pozitie": "PF",
+          "ppg": 6.5,
+          "apg": 1.0,
+          "rpg": 4.5,
+          "contract": {
+            "salariu": 2.0,
+            "durata": 1,
+            "tip": "MINIMUM"
+          }
+        },
+        {
+          "nume": "Joe Smith",
+          "varsta": 32,
+          "pozitie": "PF",
+          "ppg": 6.0,
+          "apg": 1.0,
+          "rpg": 5.0,
+          "contract": {
+            "salariu": 1.5,
+            "durata": 1,
+            "tip": "MINIMUM"
+          }
+        },
+        {
+          "nume": "Wally Szczerbiak",
+          "varsta": 31,
+          "pozitie": "SG",
+          "ppg": 11.0,
+          "apg": 2.0,
+          "rpg": 3.5,
+          "contract": {
+            "salariu": 8.0,
+            "durata": 1,
+            "tip": "MAX"
+          }
+        },
+        {
+          "nume": "Delonte West",
+          "varsta": 24,
+          "pozitie": "PG",
+          "ppg": 9.5,
+          "apg": 4.5,
+          "rpg": 3.0,
+          "contract": {
+            "salariu": 2.5,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Anderson Varejao",
+          "varsta": 25,
+          "pozitie": "C",
+          "ppg": 7.5,
+          "apg": 1.5,
+          "rpg": 7.5,
+          "contract": {
+            "salariu": 3.0,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Damon Jones",
+          "varsta": 31,
+          "pozitie": "PG",
+          "ppg": 5.5,
+          "apg": 2.5,
+          "rpg": 1.5,
+          "contract": {
+            "salariu": 2.5,
+            "durata": 1,
+            "tip": "MINIMUM"
+          }
+        },
+        {
+          "nume": "Ben Wallace",
+          "varsta": 33,
+          "pozitie": "PF",
+          "ppg": 4.5,
+          "apg": 1.0,
+          "rpg": 7.5,
+          "contract": {
+            "salariu": 12.0,
+            "durata": 1,
+            "tip": "MAX"
+          }
+        }
+      ]
+    },
+    {
+      "nume": "Jazz",
+      "oras": "Utah",
+      "conferinta": "West",
+      "salaryCap": 73.0,
+      "jucatori": [
+        {
+          "nume": "Deron Williams",
+          "varsta": 23,
+          "pozitie": "PG",
+          "ppg": 18.8,
+          "apg": 10.5,
+          "rpg": 3.8,
+          "contract": {
+            "salariu": 3.5,
+            "durata": 4,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Carlos Boozer",
+          "varsta": 26,
+          "pozitie": "PF",
+          "ppg": 19.5,
+          "apg": 2.5,
+          "rpg": 10.2,
+          "contract": {
+            "salariu": 13.0,
+            "durata": 2,
+            "tip": "MAX"
+          }
+        },
+        {
+          "nume": "Andrei Kirilenko",
+          "varsta": 26,
+          "pozitie": "SF",
+          "ppg": 10.5,
+          "apg": 3.5,
+          "rpg": 6.5,
+          "contract": {
+            "salariu": 15.0,
+            "durata": 1,
+            "tip": "MAX"
+          }
+        },
+        {
+          "nume": "Mehmet Okur",
+          "varsta": 28,
+          "pozitie": "C",
+          "ppg": 14.5,
+          "apg": 1.5,
+          "rpg": 8.5,
+          "contract": {
+            "salariu": 8.0,
+            "durata": 3,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Ronnie Brewer",
+          "varsta": 23,
+          "pozitie": "SG",
+          "ppg": 10.5,
+          "apg": 2.0,
+          "rpg": 3.5,
+          "contract": {
+            "salariu": 1.4,
+            "durata": 3,
+            "tip": "ROOKIE"
+          }
+        },
+        {
+          "nume": "Derek Fisher",
+          "varsta": 33,
+          "pozitie": "PG",
+          "ppg": 7.5,
+          "apg": 3.0,
+          "rpg": 2.5,
+          "contract": {
+            "salariu": 5.5,
+            "durata": 1,
+            "tip": "MINIMUM"
+          }
+        },
+        {
+          "nume": "Kyle Korver",
+          "varsta": 26,
+          "pozitie": "SG",
+          "ppg": 8.5,
+          "apg": 1.5,
+          "rpg": 3.5,
+          "contract": {
+            "salariu": 5.5,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Paul Millsap",
+          "varsta": 22,
+          "pozitie": "PF",
+          "ppg": 10.5,
+          "apg": 2.0,
+          "rpg": 7.5,
+          "contract": {
+            "salariu": 0.7,
+            "durata": 3,
+            "tip": "ROOKIE"
+          }
+        },
+        {
+          "nume": "Matt Harpring",
+          "varsta": 31,
+          "pozitie": "SF",
+          "ppg": 10.0,
+          "apg": 2.5,
+          "rpg": 5.0,
+          "contract": {
+            "salariu": 7.0,
+            "durata": 2,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "C.J. Miles",
+          "varsta": 20,
+          "pozitie": "SG",
+          "ppg": 6.0,
+          "apg": 1.0,
+          "rpg": 2.5,
+          "contract": {
+            "salariu": 0.8,
+            "durata": 1,
+            "tip": "ROOKIE"
+          }
+        },
+        {
+          "nume": "Dee Brown",
+          "varsta": 29,
+          "pozitie": "PG",
+          "ppg": 5.5,
+          "apg": 3.0,
+          "rpg": 1.5,
+          "contract": {
+            "salariu": 2.0,
+            "durata": 1,
+            "tip": "MINIMUM"
+          }
+        },
+        {
+          "nume": "Kosta Koufos",
+          "varsta": 19,
+          "pozitie": "C",
+          "ppg": 3.5,
+          "apg": 0.5,
+          "rpg": 3.0,
+          "contract": {
+            "salariu": 0.8,
+            "durata": 1,
+            "tip": "ROOKIE"
+          }
+        }
+      ]
+    },
+    {
+      "nume": "Hornets",
+      "oras": "New Orleans",
+      "conferinta": "West",
+      "salaryCap": 73.0,
+      "jucatori": [
+        {
+          "nume": "Chris Paul",
+          "varsta": 22,
+          "pozitie": "PG",
+          "ppg": 21.1,
+          "apg": 11.6,
+          "rpg": 4.0,
+          "contract": {
+            "salariu": 4.0,
+            "durata": 5,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "David West",
+          "varsta": 26,
+          "pozitie": "PF",
+          "ppg": 16.0,
+          "apg": 2.5,
+          "rpg": 8.0,
+          "contract": {
+            "salariu": 4.0,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Peja Stojakovic",
+          "varsta": 30,
+          "pozitie": "SF",
+          "ppg": 16.5,
+          "apg": 2.0,
+          "rpg": 4.0,
+          "contract": {
+            "salariu": 14.5,
+            "durata": 1,
+            "tip": "MAX"
+          }
+        },
+        {
+          "nume": "Rasual Butler",
+          "varsta": 27,
+          "pozitie": "SG",
+          "ppg": 9.0,
+          "apg": 1.5,
+          "rpg": 3.0,
+          "contract": {
+            "salariu": 3.5,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Jannero Pargo",
+          "varsta": 28,
+          "pozitie": "PG",
+          "ppg": 9.5,
+          "apg": 3.5,
+          "rpg": 2.0,
+          "contract": {
+            "salariu": 2.0,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Morris Peterson",
+          "varsta": 29,
+          "pozitie": "SF",
+          "ppg": 10.5,
+          "apg": 1.5,
+          "rpg": 4.0,
+          "contract": {
+            "salariu": 4.5,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Hilton Armstrong",
+          "varsta": 23,
+          "pozitie": "C",
+          "ppg": 6.0,
+          "apg": 0.8,
+          "rpg": 5.5,
+          "contract": {
+            "salariu": 1.5,
+            "durata": 3,
+            "tip": "ROOKIE"
+          }
+        },
+        {
+          "nume": "Julian Wright",
+          "varsta": 20,
+          "pozitie": "SF",
+          "ppg": 5.5,
+          "apg": 1.5,
+          "rpg": 3.5,
+          "contract": {
+            "salariu": 1.0,
+            "durata": 3,
+            "tip": "ROOKIE"
+          }
+        },
+        {
+          "nume": "Bonzi Wells",
+          "varsta": 31,
+          "pozitie": "SG",
+          "ppg": 7.5,
+          "apg": 1.5,
+          "rpg": 3.5,
+          "contract": {
+            "salariu": 2.0,
+            "durata": 1,
+            "tip": "MINIMUM"
+          }
+        },
+        {
+          "nume": "Chris Andersen",
+          "varsta": 29,
+          "pozitie": "C",
+          "ppg": 5.0,
+          "apg": 0.5,
+          "rpg": 5.0,
+          "contract": {
+            "salariu": 1.0,
+            "durata": 1,
+            "tip": "MINIMUM"
+          }
+        },
+        {
+          "nume": "James Posey",
+          "varsta": 31,
+          "pozitie": "SF",
+          "ppg": 7.5,
+          "apg": 1.5,
+          "rpg": 3.5,
+          "contract": {
+            "salariu": 3.0,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Melvin Ely",
+          "varsta": 28,
+          "pozitie": "C",
+          "ppg": 4.5,
+          "apg": 0.5,
+          "rpg": 4.0,
+          "contract": {
+            "salariu": 1.5,
+            "durata": 1,
+            "tip": "MINIMUM"
+          }
+        }
+      ]
+    },
+    {
+      "nume": "Suns",
+      "oras": "Phoenix",
+      "conferinta": "West",
+      "salaryCap": 73.0,
+      "jucatori": [
+        {
+          "nume": "Steve Nash",
+          "varsta": 33,
+          "pozitie": "PG",
+          "ppg": 16.9,
+          "apg": 11.6,
+          "rpg": 3.5,
+          "contract": {
+            "salariu": 10.8,
+            "durata": 2,
+            "tip": "MAX"
+          }
+        },
+        {
+          "nume": "Shaquille O'Neal",
+          "varsta": 35,
+          "pozitie": "C",
+          "ppg": 13.6,
+          "apg": 1.5,
+          "rpg": 9.2,
+          "contract": {
+            "salariu": 20.0,
+            "durata": 2,
+            "tip": "MAX"
+          }
+        },
+        {
+          "nume": "Amare Stoudemire",
+          "varsta": 25,
+          "pozitie": "C",
+          "ppg": 17.6,
+          "apg": 1.5,
+          "rpg": 8.1,
+          "contract": {
+            "salariu": 14.0,
+            "durata": 4,
+            "tip": "MAX"
+          }
+        },
+        {
+          "nume": "Leandro Barbosa",
+          "varsta": 25,
+          "pozitie": "SG",
+          "ppg": 16.0,
+          "apg": 3.0,
+          "rpg": 3.0,
+          "contract": {
+            "salariu": 3.5,
+            "durata": 2,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Grant Hill",
+          "varsta": 35,
+          "pozitie": "SF",
+          "ppg": 12.5,
+          "apg": 3.0,
+          "rpg": 4.5,
+          "contract": {
+            "salariu": 5.5,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Matt Barnes",
+          "varsta": 27,
+          "pozitie": "SF",
+          "ppg": 8.5,
+          "apg": 1.5,
+          "rpg": 4.0,
+          "contract": {
+            "salariu": 2.5,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Boris Diaw",
+          "varsta": 25,
+          "pozitie": "SF",
+          "ppg": 12.5,
+          "apg": 4.5,
+          "rpg": 5.5,
+          "contract": {
+            "salariu": 7.0,
+            "durata": 2,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Raja Bell",
+          "varsta": 31,
+          "pozitie": "SG",
+          "ppg": 9.0,
+          "apg": 2.0,
+          "rpg": 2.5,
+          "contract": {
+            "salariu": 5.5,
+            "durata": 2,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Sean Singletary",
+          "varsta": 22,
+          "pozitie": "PG",
+          "ppg": 4.0,
+          "apg": 3.0,
+          "rpg": 1.5,
+          "contract": {
+            "salariu": 0.7,
+            "durata": 1,
+            "tip": "ROOKIE"
+          }
+        },
+        {
+          "nume": "D.J. Strawberry",
+          "varsta": 22,
+          "pozitie": "SG",
+          "ppg": 3.5,
+          "apg": 1.0,
+          "rpg": 1.5,
+          "contract": {
+            "salariu": 0.5,
+            "durata": 1,
+            "tip": "ROOKIE"
+          }
+        },
+        {
+          "nume": "Shawn Marion",
+          "varsta": 29,
+          "pozitie": "SF",
+          "ppg": 19.0,
+          "apg": 2.5,
+          "rpg": 9.5,
+          "contract": {
+            "salariu": 17.0,
+            "durata": 1,
+            "tip": "MAX"
+          }
+        },
+        {
+          "nume": "Jalen Rose",
+          "varsta": 34,
+          "pozitie": "SG",
+          "ppg": 5.5,
+          "apg": 1.5,
+          "rpg": 2.0,
+          "contract": {
+            "salariu": 2.0,
+            "durata": 1,
+            "tip": "MINIMUM"
+          }
+        }
+      ]
+    },
+    {
+      "nume": "Spurs",
+      "oras": "San Antonio",
+      "conferinta": "West",
+      "salaryCap": 73.0,
+      "jucatori": [
+        {
+          "nume": "Tim Duncan",
+          "varsta": 31,
+          "pozitie": "C",
+          "ppg": 19.3,
+          "apg": 3.2,
+          "rpg": 11.4,
+          "contract": {
+            "salariu": 22.18,
+            "durata": 1,
+            "tip": "MAX"
+          }
+        },
+        {
+          "nume": "Tony Parker",
+          "varsta": 25,
+          "pozitie": "PG",
+          "ppg": 18.6,
+          "apg": 5.5,
+          "rpg": 3.1,
+          "contract": {
+            "salariu": 10.0,
+            "durata": 4,
+            "tip": "MAX"
+          }
+        },
+        {
+          "nume": "Manu Ginobili",
+          "varsta": 30,
+          "pozitie": "SG",
+          "ppg": 19.5,
+          "apg": 4.5,
+          "rpg": 4.6,
+          "contract": {
+            "salariu": 14.0,
+            "durata": 4,
+            "tip": "MAX"
+          }
+        },
+        {
+          "nume": "Bruce Bowen",
+          "varsta": 36,
+          "pozitie": "SF",
+          "ppg": 5.5,
+          "apg": 1.0,
+          "rpg": 2.5,
+          "contract": {
+            "salariu": 6.0,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Michael Finley",
+          "varsta": 34,
+          "pozitie": "SG",
+          "ppg": 8.0,
+          "apg": 1.5,
+          "rpg": 3.0,
+          "contract": {
+            "salariu": 3.0,
+            "durata": 1,
+            "tip": "MINIMUM"
+          }
+        },
+        {
+          "nume": "Brent Barry",
+          "varsta": 37,
+          "pozitie": "SG",
+          "ppg": 6.5,
+          "apg": 2.5,
+          "rpg": 2.5,
+          "contract": {
+            "salariu": 3.5,
+            "durata": 1,
+            "tip": "MINIMUM"
+          }
+        },
+        {
+          "nume": "Fabricio Oberto",
+          "varsta": 32,
+          "pozitie": "C",
+          "ppg": 5.5,
+          "apg": 1.5,
+          "rpg": 5.0,
+          "contract": {
+            "salariu": 3.0,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Ime Udoka",
+          "varsta": 30,
+          "pozitie": "SF",
+          "ppg": 5.5,
+          "apg": 1.5,
+          "rpg": 2.5,
+          "contract": {
+            "salariu": 1.5,
+            "durata": 1,
+            "tip": "MINIMUM"
+          }
+        },
+        {
+          "nume": "Matt Bonner",
+          "varsta": 27,
+          "pozitie": "PF",
+          "ppg": 7.0,
+          "apg": 0.8,
+          "rpg": 3.5,
+          "contract": {
+            "salariu": 2.5,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Roger Mason",
+          "varsta": 26,
+          "pozitie": "SG",
+          "ppg": 7.5,
+          "apg": 1.5,
+          "rpg": 2.5,
+          "contract": {
+            "salariu": 1.5,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Robert Horry",
+          "varsta": 37,
+          "pozitie": "PF",
+          "ppg": 3.0,
+          "apg": 0.8,
+          "rpg": 3.0,
+          "contract": {
+            "salariu": 1.5,
+            "durata": 1,
+            "tip": "MINIMUM"
+          }
+        },
+        {
+          "nume": "Jacque Vaughn",
+          "varsta": 33,
+          "pozitie": "PG",
+          "ppg": 3.5,
+          "apg": 2.0,
+          "rpg": 1.0,
+          "contract": {
+            "salariu": 1.5,
+            "durata": 1,
+            "tip": "MINIMUM"
+          }
+        }
+      ]
+    },
+    {
+      "nume": "Rockets",
+      "oras": "Houston",
+      "conferinta": "West",
+      "salaryCap": 73.0,
+      "jucatori": [
+        {
+          "nume": "Tracy McGrady",
+          "varsta": 28,
+          "pozitie": "SG",
+          "ppg": 21.6,
+          "apg": 5.6,
+          "rpg": 5.1,
+          "contract": {
+            "salariu": 22.5,
+            "durata": 1,
+            "tip": "MAX"
+          }
+        },
+        {
+          "nume": "Yao Ming",
+          "varsta": 27,
+          "pozitie": "C",
+          "ppg": 22.0,
+          "apg": 2.0,
+          "rpg": 10.8,
+          "contract": {
+            "salariu": 17.69,
+            "durata": 2,
+            "tip": "MAX"
+          }
+        },
+        {
+          "nume": "Luis Scola",
+          "varsta": 27,
+          "pozitie": "PF",
+          "ppg": 14.0,
+          "apg": 1.5,
+          "rpg": 7.5,
+          "contract": {
+            "salariu": 1.5,
+            "durata": 4,
+            "tip": "ROOKIE"
+          }
+        },
+        {
+          "nume": "Rafer Alston",
+          "varsta": 31,
+          "pozitie": "PG",
+          "ppg": 11.0,
+          "apg": 6.0,
+          "rpg": 3.0,
+          "contract": {
+            "salariu": 3.0,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Shane Battier",
+          "varsta": 29,
+          "pozitie": "SF",
+          "ppg": 7.5,
+          "apg": 1.5,
+          "rpg": 4.0,
+          "contract": {
+            "salariu": 6.5,
+            "durata": 2,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Ron Artest",
+          "varsta": 27,
+          "pozitie": "SF",
+          "ppg": 14.5,
+          "apg": 2.5,
+          "rpg": 4.5,
+          "contract": {
+            "salariu": 6.5,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Dikembe Mutombo",
+          "varsta": 41,
+          "pozitie": "C",
+          "ppg": 4.5,
+          "apg": 0.8,
+          "rpg": 5.5,
+          "contract": {
+            "salariu": 2.0,
+            "durata": 1,
+            "tip": "MINIMUM"
+          }
+        },
+        {
+          "nume": "Steve Novak",
+          "varsta": 24,
+          "pozitie": "SG",
+          "ppg": 7.5,
+          "apg": 1.0,
+          "rpg": 2.5,
+          "contract": {
+            "salariu": 1.0,
+            "durata": 1,
+            "tip": "MINIMUM"
+          }
+        },
+        {
+          "nume": "Aaron Brooks",
+          "varsta": 23,
+          "pozitie": "PG",
+          "ppg": 5.5,
+          "apg": 2.5,
+          "rpg": 1.5,
+          "contract": {
+            "salariu": 0.8,
+            "durata": 1,
+            "tip": "ROOKIE"
+          }
+        },
+        {
+          "nume": "Bobby Jackson",
+          "varsta": 34,
+          "pozitie": "PG",
+          "ppg": 7.5,
+          "apg": 3.0,
+          "rpg": 2.5,
+          "contract": {
+            "salariu": 3.0,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Carl Landry",
+          "varsta": 23,
+          "pozitie": "PF",
+          "ppg": 8.5,
+          "apg": 0.8,
+          "rpg": 5.5,
+          "contract": {
+            "salariu": 1.0,
+            "durata": 1,
+            "tip": "ROOKIE"
+          }
+        },
+        {
+          "nume": "Bonzi Wells",
+          "varsta": 31,
+          "pozitie": "SG",
+          "ppg": 5.0,
+          "apg": 1.0,
+          "rpg": 2.5,
+          "contract": {
+            "salariu": 1.5,
+            "durata": 1,
+            "tip": "MINIMUM"
+          }
+        }
+      ]
+    },
+    {
+      "nume": "Nuggets",
+      "oras": "Denver",
+      "conferinta": "West",
+      "salaryCap": 73.0,
+      "jucatori": [
+        {
+          "nume": "Carmelo Anthony",
+          "varsta": 23,
+          "pozitie": "SF",
+          "ppg": 28.9,
+          "apg": 3.8,
+          "rpg": 8.1,
+          "contract": {
+            "salariu": 13.5,
+            "durata": 3,
+            "tip": "MAX"
+          }
+        },
+        {
+          "nume": "Allen Iverson",
+          "varsta": 32,
+          "pozitie": "PG",
+          "ppg": 26.4,
+          "apg": 7.0,
+          "rpg": 3.8,
+          "contract": {
+            "salariu": 22.0,
+            "durata": 2,
+            "tip": "MAX"
+          }
+        },
+        {
+          "nume": "Marcus Camby",
+          "varsta": 33,
+          "pozitie": "C",
+          "ppg": 11.0,
+          "apg": 1.5,
+          "rpg": 11.7,
+          "contract": {
+            "salariu": 8.0,
+            "durata": 1,
+            "tip": "MAX"
+          }
+        },
+        {
+          "nume": "Chauncey Billups",
+          "varsta": 31,
+          "pozitie": "PG",
+          "ppg": 11.5,
+          "apg": 3.5,
+          "rpg": 2.5,
+          "contract": {
+            "salariu": 11.5,
+            "durata": 1,
+            "tip": "MAX"
+          }
+        },
+        {
+          "nume": "Nene",
+          "varsta": 25,
+          "pozitie": "C",
+          "ppg": 14.5,
+          "apg": 1.5,
+          "rpg": 8.5,
+          "contract": {
+            "salariu": 9.0,
+            "durata": 3,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Linas Kleiza",
+          "varsta": 23,
+          "pozitie": "SF",
+          "ppg": 9.0,
+          "apg": 1.5,
+          "rpg": 4.5,
+          "contract": {
+            "salariu": 1.0,
+            "durata": 3,
+            "tip": "ROOKIE"
+          }
+        },
+        {
+          "nume": "J.R. Smith",
+          "varsta": 22,
+          "pozitie": "SG",
+          "ppg": 9.5,
+          "apg": 2.0,
+          "rpg": 2.5,
+          "contract": {
+            "salariu": 5.5,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Eduardo Najera",
+          "varsta": 31,
+          "pozitie": "PF",
+          "ppg": 5.5,
+          "apg": 1.5,
+          "rpg": 4.5,
+          "contract": {
+            "salariu": 3.5,
+            "durata": 1,
+            "tip": "MINIMUM"
+          }
+        },
+        {
+          "nume": "Anthony Carter",
+          "varsta": 31,
+          "pozitie": "PG",
+          "ppg": 5.5,
+          "apg": 3.5,
+          "rpg": 2.0,
+          "contract": {
+            "salariu": 1.5,
+            "durata": 1,
+            "tip": "MINIMUM"
+          }
+        },
+        {
+          "nume": "Steven Hunter",
+          "varsta": 27,
+          "pozitie": "C",
+          "ppg": 4.5,
+          "apg": 0.5,
+          "rpg": 4.5,
+          "contract": {
+            "salariu": 3.0,
+            "durata": 1,
+            "tip": "MINIMUM"
+          }
+        },
+        {
+          "nume": "Reggie Evans",
+          "varsta": 27,
+          "pozitie": "PF",
+          "ppg": 5.0,
+          "apg": 1.0,
+          "rpg": 7.5,
+          "contract": {
+            "salariu": 1.5,
+            "durata": 1,
+            "tip": "MINIMUM"
+          }
+        },
+        {
+          "nume": "Yakhouba Diawara",
+          "varsta": 26,
+          "pozitie": "SF",
+          "ppg": 3.5,
+          "apg": 0.8,
+          "rpg": 2.0,
+          "contract": {
+            "salariu": 0.5,
+            "durata": 1,
+            "tip": "ROOKIE"
+          }
+        }
+      ]
+    },
+    {
+      "nume": "76ers",
+      "oras": "Philadelphia",
+      "conferinta": "East",
+      "salaryCap": 73.0,
+      "jucatori": [
+        {
+          "nume": "Andre Iguodala",
+          "varsta": 23,
+          "pozitie": "SF",
+          "ppg": 18.0,
+          "apg": 5.0,
+          "rpg": 5.7,
+          "contract": {
+            "salariu": 3.1,
+            "durata": 6,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Andre Miller",
+          "varsta": 31,
+          "pozitie": "PG",
+          "ppg": 17.0,
+          "apg": 8.4,
+          "rpg": 4.2,
+          "contract": {
+            "salariu": 7.5,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Samuel Dalembert",
+          "varsta": 27,
+          "pozitie": "C",
+          "ppg": 9.5,
+          "apg": 1.5,
+          "rpg": 10.5,
+          "contract": {
+            "salariu": 6.8,
+            "durata": 3,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Kyle Korver",
+          "varsta": 26,
+          "pozitie": "SG",
+          "ppg": 8.5,
+          "apg": 1.5,
+          "rpg": 3.5,
+          "contract": {
+            "salariu": 5.0,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Louis Williams",
+          "varsta": 21,
+          "pozitie": "PG",
+          "ppg": 12.5,
+          "apg": 3.5,
+          "rpg": 2.5,
+          "contract": {
+            "salariu": 1.5,
+            "durata": 2,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Reggie Evans",
+          "varsta": 27,
+          "pozitie": "PF",
+          "ppg": 5.5,
+          "apg": 1.0,
+          "rpg": 9.5,
+          "contract": {
+            "salariu": 2.0,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Thaddeus Young",
+          "varsta": 19,
+          "pozitie": "PF",
+          "ppg": 10.0,
+          "apg": 1.5,
+          "rpg": 5.5,
+          "contract": {
+            "salariu": 1.0,
+            "durata": 4,
+            "tip": "ROOKIE"
+          }
+        },
+        {
+          "nume": "Jason Smith",
+          "varsta": 22,
+          "pozitie": "C",
+          "ppg": 5.5,
+          "apg": 0.8,
+          "rpg": 4.5,
+          "contract": {
+            "salariu": 0.8,
+            "durata": 3,
+            "tip": "ROOKIE"
+          }
+        },
+        {
+          "nume": "Willie Green",
+          "varsta": 27,
+          "pozitie": "SG",
+          "ppg": 10.0,
+          "apg": 2.0,
+          "rpg": 2.5,
+          "contract": {
+            "salariu": 3.0,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Kareem Rush",
+          "varsta": 27,
+          "pozitie": "SG",
+          "ppg": 5.5,
+          "apg": 1.0,
+          "rpg": 2.0,
+          "contract": {
+            "salariu": 2.0,
+            "durata": 1,
+            "tip": "MINIMUM"
+          }
+        },
+        {
+          "nume": "Calvin Booth",
+          "varsta": 31,
+          "pozitie": "C",
+          "ppg": 3.5,
+          "apg": 0.5,
+          "rpg": 3.5,
+          "contract": {
+            "salariu": 1.5,
+            "durata": 1,
+            "tip": "MINIMUM"
+          }
+        },
+        {
+          "nume": "Royal Ivey",
+          "varsta": 26,
+          "pozitie": "PG",
+          "ppg": 4.5,
+          "apg": 2.0,
+          "rpg": 1.5,
+          "contract": {
+            "salariu": 1.0,
+            "durata": 1,
+            "tip": "MINIMUM"
+          }
+        }
+      ]
+    },
+    {
+      "nume": "Bucks",
+      "oras": "Milwaukee",
+      "conferinta": "East",
+      "salaryCap": 73.0,
+      "jucatori": [
+        {
+          "nume": "Michael Redd",
+          "varsta": 27,
+          "pozitie": "SG",
+          "ppg": 22.7,
+          "apg": 2.5,
+          "rpg": 4.5,
+          "contract": {
+            "salariu": 13.0,
+            "durata": 5,
+            "tip": "MAX"
+          }
+        },
+        {
+          "nume": "Andrew Bogut",
+          "varsta": 22,
+          "pozitie": "C",
+          "ppg": 12.5,
+          "apg": 1.5,
+          "rpg": 7.0,
+          "contract": {
+            "salariu": 3.5,
+            "durata": 3,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Charlie Villanueva",
+          "varsta": 23,
+          "pozitie": "PF",
+          "ppg": 14.0,
+          "apg": 2.0,
+          "rpg": 6.5,
+          "contract": {
+            "salariu": 5.0,
+            "durata": 3,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Ramon Sessions",
+          "varsta": 21,
+          "pozitie": "PG",
+          "ppg": 11.5,
+          "apg": 6.5,
+          "rpg": 3.0,
+          "contract": {
+            "salariu": 0.8,
+            "durata": 1,
+            "tip": "ROOKIE"
+          }
+        },
+        {
+          "nume": "Mo Williams",
+          "varsta": 25,
+          "pozitie": "PG",
+          "ppg": 13.5,
+          "apg": 5.5,
+          "rpg": 3.0,
+          "contract": {
+            "salariu": 5.5,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Desmond Mason",
+          "varsta": 30,
+          "pozitie": "SG",
+          "ppg": 12.0,
+          "apg": 2.0,
+          "rpg": 4.0,
+          "contract": {
+            "salariu": 7.0,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Bobby Simmons",
+          "varsta": 28,
+          "pozitie": "SF",
+          "ppg": 9.0,
+          "apg": 2.0,
+          "rpg": 4.5,
+          "contract": {
+            "salariu": 8.0,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Ruben Patterson",
+          "varsta": 32,
+          "pozitie": "SF",
+          "ppg": 8.5,
+          "apg": 2.0,
+          "rpg": 4.5,
+          "contract": {
+            "salariu": 3.5,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Dan Gadzuric",
+          "varsta": 28,
+          "pozitie": "C",
+          "ppg": 6.5,
+          "apg": 0.8,
+          "rpg": 6.5,
+          "contract": {
+            "salariu": 4.5,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Jake Voskuhl",
+          "varsta": 29,
+          "pozitie": "C",
+          "ppg": 4.5,
+          "apg": 0.8,
+          "rpg": 4.5,
+          "contract": {
+            "salariu": 3.0,
+            "durata": 1,
+            "tip": "MINIMUM"
+          }
+        },
+        {
+          "nume": "Jamaal Magloire",
+          "varsta": 29,
+          "pozitie": "C",
+          "ppg": 6.0,
+          "apg": 1.0,
+          "rpg": 6.0,
+          "contract": {
+            "salariu": 6.5,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Linas Kleiza",
+          "varsta": 22,
+          "pozitie": "SF",
+          "ppg": 7.5,
+          "apg": 1.5,
+          "rpg": 4.0,
+          "contract": {
+            "salariu": 0.8,
+            "durata": 1,
+            "tip": "ROOKIE"
+          }
+        }
+      ]
+    },
+    {
+      "nume": "Nets",
+      "oras": "New Jersey",
+      "conferinta": "East",
+      "salaryCap": 73.0,
+      "jucatori": [
+        {
+          "nume": "Vince Carter",
+          "varsta": 30,
+          "pozitie": "SG",
+          "ppg": 21.3,
+          "apg": 3.5,
+          "rpg": 4.5,
+          "contract": {
+            "salariu": 15.0,
+            "durata": 3,
+            "tip": "MAX"
+          }
+        },
+        {
+          "nume": "Jason Kidd",
+          "varsta": 34,
+          "pozitie": "PG",
+          "ppg": 10.8,
+          "apg": 8.7,
+          "rpg": 6.5,
+          "contract": {
+            "salariu": 19.7,
+            "durata": 1,
+            "tip": "MAX"
+          }
+        },
+        {
+          "nume": "Richard Jefferson",
+          "varsta": 27,
+          "pozitie": "SF",
+          "ppg": 18.0,
+          "apg": 3.5,
+          "rpg": 6.0,
+          "contract": {
+            "salariu": 14.5,
+            "durata": 1,
+            "tip": "MAX"
+          }
+        },
+        {
+          "nume": "Marcus Williams",
+          "varsta": 22,
+          "pozitie": "PG",
+          "ppg": 12.0,
+          "apg": 6.5,
+          "rpg": 3.5,
+          "contract": {
+            "salariu": 2.0,
+            "durata": 2,
+            "tip": "ROOKIE"
+          }
+        },
+        {
+          "nume": "Nenad Krstic",
+          "varsta": 24,
+          "pozitie": "C",
+          "ppg": 11.0,
+          "apg": 1.5,
+          "rpg": 6.0,
+          "contract": {
+            "salariu": 5.5,
+            "durata": 2,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Mikki Moore",
+          "varsta": 30,
+          "pozitie": "C",
+          "ppg": 9.0,
+          "apg": 1.0,
+          "rpg": 7.0,
+          "contract": {
+            "salariu": 6.5,
+            "durata": 2,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Antoine Wright",
+          "varsta": 23,
+          "pozitie": "SG",
+          "ppg": 8.5,
+          "apg": 2.0,
+          "rpg": 3.0,
+          "contract": {
+            "salariu": 1.5,
+            "durata": 2,
+            "tip": "ROOKIE"
+          }
+        },
+        {
+          "nume": "Josh Boone",
+          "varsta": 23,
+          "pozitie": "PF",
+          "ppg": 7.0,
+          "apg": 1.0,
+          "rpg": 6.5,
+          "contract": {
+            "salariu": 2.0,
+            "durata": 2,
+            "tip": "ROOKIE"
+          }
+        },
+        {
+          "nume": "Sean Williams",
+          "varsta": 22,
+          "pozitie": "C",
+          "ppg": 6.0,
+          "apg": 1.0,
+          "rpg": 5.5,
+          "contract": {
+            "salariu": 1.8,
+            "durata": 3,
+            "tip": "ROOKIE"
+          }
+        },
+        {
+          "nume": "Trenton Hassell",
+          "varsta": 29,
+          "pozitie": "SG",
+          "ppg": 6.0,
+          "apg": 2.0,
+          "rpg": 3.5,
+          "contract": {
+            "salariu": 4.0,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Bobby Simmons",
+          "varsta": 28,
+          "pozitie": "SF",
+          "ppg": 7.0,
+          "apg": 1.5,
+          "rpg": 3.5,
+          "contract": {
+            "salariu": 8.0,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Keyon Dooling",
+          "varsta": 27,
+          "pozitie": "PG",
+          "ppg": 7.5,
+          "apg": 4.0,
+          "rpg": 2.0,
+          "contract": {
+            "salariu": 3.5,
+            "durata": 1,
+            "tip": "MID"
+          }
+        }
+      ]
+    },
+    {
+      "nume": "Raptors",
+      "oras": "Toronto",
+      "conferinta": "East",
+      "salaryCap": 73.0,
+      "jucatori": [
+        {
+          "nume": "Chris Bosh",
+          "varsta": 23,
+          "pozitie": "C",
+          "ppg": 22.3,
+          "apg": 2.5,
+          "rpg": 9.4,
+          "contract": {
+            "salariu": 12.5,
+            "durata": 5,
+            "tip": "MAX"
+          }
+        },
+        {
+          "nume": "T.J. Ford",
+          "varsta": 25,
+          "pozitie": "PG",
+          "ppg": 14.0,
+          "apg": 8.5,
+          "rpg": 3.0,
+          "contract": {
+            "salariu": 5.5,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Anthony Parker",
+          "varsta": 32,
+          "pozitie": "SG",
+          "ppg": 12.0,
+          "apg": 3.5,
+          "rpg": 3.5,
+          "contract": {
+            "salariu": 3.5,
+            "durata": 2,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Andrea Bargnani",
+          "varsta": 21,
+          "pozitie": "C",
+          "ppg": 11.5,
+          "apg": 1.0,
+          "rpg": 4.5,
+          "contract": {
+            "salariu": 4.7,
+            "durata": 4,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Jose Calderon",
+          "varsta": 26,
+          "pozitie": "PG",
+          "ppg": 9.5,
+          "apg": 7.5,
+          "rpg": 3.5,
+          "contract": {
+            "salariu": 3.0,
+            "durata": 2,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Jorge Garbajosa",
+          "varsta": 29,
+          "pozitie": "PF",
+          "ppg": 9.0,
+          "apg": 2.5,
+          "rpg": 5.5,
+          "contract": {
+            "salariu": 4.5,
+            "durata": 2,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Rasho Nesterovic",
+          "varsta": 31,
+          "pozitie": "C",
+          "ppg": 7.5,
+          "apg": 1.5,
+          "rpg": 6.5,
+          "contract": {
+            "salariu": 6.5,
+            "durata": 2,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Jamario Moon",
+          "varsta": 27,
+          "pozitie": "SF",
+          "ppg": 8.5,
+          "apg": 1.5,
+          "rpg": 5.5,
+          "contract": {
+            "salariu": 0.5,
+            "durata": 1,
+            "tip": "MINIMUM"
+          }
+        },
+        {
+          "nume": "Morris Peterson",
+          "varsta": 30,
+          "pozitie": "SF",
+          "ppg": 9.5,
+          "apg": 1.5,
+          "rpg": 4.0,
+          "contract": {
+            "salariu": 4.5,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Kris Humphries",
+          "varsta": 22,
+          "pozitie": "PF",
+          "ppg": 6.0,
+          "apg": 0.8,
+          "rpg": 5.0,
+          "contract": {
+            "salariu": 1.5,
+            "durata": 2,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Pape Sow",
+          "varsta": 24,
+          "pozitie": "C",
+          "ppg": 3.5,
+          "apg": 0.5,
+          "rpg": 3.5,
+          "contract": {
+            "salariu": 1.0,
+            "durata": 1,
+            "tip": "ROOKIE"
+          }
+        },
+        {
+          "nume": "Uros Slokar",
+          "varsta": 25,
+          "pozitie": "SF",
+          "ppg": 3.0,
+          "apg": 0.8,
+          "rpg": 2.0,
+          "contract": {
+            "salariu": 0.5,
+            "durata": 1,
+            "tip": "MINIMUM"
+          }
+        }
+      ]
+    },
+    {
+      "nume": "Knicks",
+      "oras": "New York",
+      "conferinta": "East",
+      "salaryCap": 73.0,
+      "jucatori": [
+        {
+          "nume": "Stephon Marbury",
+          "varsta": 30,
+          "pozitie": "PG",
+          "ppg": 14.5,
+          "apg": 6.5,
+          "rpg": 3.5,
+          "contract": {
+            "salariu": 21.9,
+            "durata": 1,
+            "tip": "MAX"
+          }
+        },
+        {
+          "nume": "Zach Randolph",
+          "varsta": 26,
+          "pozitie": "PF",
+          "ppg": 20.1,
+          "apg": 2.0,
+          "rpg": 10.5,
+          "contract": {
+            "salariu": 16.5,
+            "durata": 1,
+            "tip": "MAX"
+          }
+        },
+        {
+          "nume": "Eddy Curry",
+          "varsta": 25,
+          "pozitie": "C",
+          "ppg": 14.0,
+          "apg": 0.8,
+          "rpg": 6.5,
+          "contract": {
+            "salariu": 9.8,
+            "durata": 3,
+            "tip": "MAX"
+          }
+        },
+        {
+          "nume": "David Lee",
+          "varsta": 24,
+          "pozitie": "PF",
+          "ppg": 11.5,
+          "apg": 1.5,
+          "rpg": 9.5,
+          "contract": {
+            "salariu": 2.0,
+            "durata": 2,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Jamal Crawford",
+          "varsta": 27,
+          "pozitie": "SG",
+          "ppg": 14.8,
+          "apg": 3.5,
+          "rpg": 2.5,
+          "contract": {
+            "salariu": 9.5,
+            "durata": 2,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Quentin Richardson",
+          "varsta": 27,
+          "pozitie": "SF",
+          "ppg": 11.0,
+          "apg": 2.0,
+          "rpg": 5.0,
+          "contract": {
+            "salariu": 8.7,
+            "durata": 2,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Nate Robinson",
+          "varsta": 23,
+          "pozitie": "PG",
+          "ppg": 13.0,
+          "apg": 4.0,
+          "rpg": 2.5,
+          "contract": {
+            "salariu": 2.4,
+            "durata": 2,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Jared Jeffries",
+          "varsta": 26,
+          "pozitie": "SF",
+          "ppg": 7.5,
+          "apg": 2.0,
+          "rpg": 5.0,
+          "contract": {
+            "salariu": 6.9,
+            "durata": 5,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Mardy Collins",
+          "varsta": 23,
+          "pozitie": "PG",
+          "ppg": 6.5,
+          "apg": 4.5,
+          "rpg": 2.5,
+          "contract": {
+            "salariu": 1.5,
+            "durata": 2,
+            "tip": "ROOKIE"
+          }
+        },
+        {
+          "nume": "Wilson Chandler",
+          "varsta": 21,
+          "pozitie": "SF",
+          "ppg": 7.0,
+          "apg": 1.5,
+          "rpg": 3.5,
+          "contract": {
+            "salariu": 1.8,
+            "durata": 4,
+            "tip": "ROOKIE"
+          }
+        },
+        {
+          "nume": "Malik Rose",
+          "varsta": 33,
+          "pozitie": "PF",
+          "ppg": 5.5,
+          "apg": 1.0,
+          "rpg": 4.5,
+          "contract": {
+            "salariu": 5.0,
+            "durata": 1,
+            "tip": "MINIMUM"
+          }
+        },
+        {
+          "nume": "Fred Jones",
+          "varsta": 28,
+          "pozitie": "SG",
+          "ppg": 7.5,
+          "apg": 2.0,
+          "rpg": 2.5,
+          "contract": {
+            "salariu": 3.5,
+            "durata": 1,
+            "tip": "MID"
+          }
+        }
+      ]
+    },
+    {
+      "nume": "Bulls",
+      "oras": "Chicago",
+      "conferinta": "East",
+      "salaryCap": 73.0,
+      "jucatori": [
+        {
+          "nume": "Ben Gordon",
+          "varsta": 24,
+          "pozitie": "SG",
+          "ppg": 18.7,
+          "apg": 3.5,
+          "rpg": 2.5,
+          "contract": {
+            "salariu": 5.8,
+            "durata": 2,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Kirk Hinrich",
+          "varsta": 27,
+          "pozitie": "PG",
+          "ppg": 14.5,
+          "apg": 5.5,
+          "rpg": 3.5,
+          "contract": {
+            "salariu": 9.0,
+            "durata": 4,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Luol Deng",
+          "varsta": 22,
+          "pozitie": "SF",
+          "ppg": 17.1,
+          "apg": 2.5,
+          "rpg": 6.5,
+          "contract": {
+            "salariu": 11.0,
+            "durata": 6,
+            "tip": "MAX"
+          }
+        },
+        {
+          "nume": "Andres Nocioni",
+          "varsta": 28,
+          "pozitie": "SF",
+          "ppg": 13.5,
+          "apg": 2.5,
+          "rpg": 5.5,
+          "contract": {
+            "salariu": 6.5,
+            "durata": 4,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Joakim Noah",
+          "varsta": 22,
+          "pozitie": "C",
+          "ppg": 7.5,
+          "apg": 1.5,
+          "rpg": 7.0,
+          "contract": {
+            "salariu": 3.5,
+            "durata": 4,
+            "tip": "ROOKIE"
+          }
+        },
+        {
+          "nume": "Thabo Sefolosha",
+          "varsta": 23,
+          "pozitie": "SG",
+          "ppg": 7.0,
+          "apg": 2.5,
+          "rpg": 3.0,
+          "contract": {
+            "salariu": 1.5,
+            "durata": 3,
+            "tip": "ROOKIE"
+          }
+        },
+        {
+          "nume": "Chris Duhon",
+          "varsta": 25,
+          "pozitie": "PG",
+          "ppg": 8.5,
+          "apg": 5.0,
+          "rpg": 3.0,
+          "contract": {
+            "salariu": 3.2,
+            "durata": 2,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Drew Gooden",
+          "varsta": 27,
+          "pozitie": "PF",
+          "ppg": 12.5,
+          "apg": 1.5,
+          "rpg": 7.5,
+          "contract": {
+            "salariu": 5.0,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Viktor Khryapa",
+          "varsta": 26,
+          "pozitie": "SF",
+          "ppg": 7.0,
+          "apg": 2.5,
+          "rpg": 4.5,
+          "contract": {
+            "salariu": 3.0,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "P.J. Brown",
+          "varsta": 38,
+          "pozitie": "PF",
+          "ppg": 5.5,
+          "apg": 1.0,
+          "rpg": 5.0,
+          "contract": {
+            "salariu": 1.5,
+            "durata": 1,
+            "tip": "MINIMUM"
+          }
+        },
+        {
+          "nume": "Larry Hughes",
+          "varsta": 29,
+          "pozitie": "SG",
+          "ppg": 11.0,
+          "apg": 3.0,
+          "rpg": 4.0,
+          "contract": {
+            "salariu": 13.5,
+            "durata": 1,
+            "tip": "MAX"
+          }
+        },
+        {
+          "nume": "Adrian Griffin",
+          "varsta": 33,
+          "pozitie": "SF",
+          "ppg": 5.5,
+          "apg": 2.0,
+          "rpg": 3.5,
+          "contract": {
+            "salariu": 2.0,
+            "durata": 1,
+            "tip": "MINIMUM"
+          }
+        }
+      ]
+    },
+    {
+      "nume": "Hawks",
+      "oras": "Atlanta",
+      "conferinta": "East",
+      "salaryCap": 73.0,
+      "jucatori": [
+        {
+          "nume": "Josh Smith",
+          "varsta": 22,
+          "pozitie": "PF",
+          "ppg": 16.5,
+          "apg": 2.5,
+          "rpg": 8.5,
+          "contract": {
+            "salariu": 2.5,
+            "durata": 3,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Joe Johnson",
+          "varsta": 26,
+          "pozitie": "SG",
+          "ppg": 19.5,
+          "apg": 3.5,
+          "rpg": 4.5,
+          "contract": {
+            "salariu": 11.0,
+            "durata": 5,
+            "tip": "MAX"
+          }
+        },
+        {
+          "nume": "Al Horford",
+          "varsta": 21,
+          "pozitie": "C",
+          "ppg": 10.1,
+          "apg": 1.8,
+          "rpg": 9.7,
+          "contract": {
+            "salariu": 3.0,
+            "durata": 5,
+            "tip": "ROOKIE"
+          }
+        },
+        {
+          "nume": "Mike Bibby",
+          "varsta": 29,
+          "pozitie": "PG",
+          "ppg": 15.5,
+          "apg": 5.5,
+          "rpg": 3.0,
+          "contract": {
+            "salariu": 9.0,
+            "durata": 2,
+            "tip": "MAX"
+          }
+        },
+        {
+          "nume": "Marvin Williams",
+          "varsta": 21,
+          "pozitie": "SF",
+          "ppg": 12.5,
+          "apg": 1.5,
+          "rpg": 4.5,
+          "contract": {
+            "salariu": 3.4,
+            "durata": 3,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Zaza Pachulia",
+          "varsta": 23,
+          "pozitie": "C",
+          "ppg": 8.0,
+          "apg": 1.5,
+          "rpg": 7.5,
+          "contract": {
+            "salariu": 4.0,
+            "durata": 3,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Solomon Jones",
+          "varsta": 23,
+          "pozitie": "PF",
+          "ppg": 5.5,
+          "apg": 1.0,
+          "rpg": 5.0,
+          "contract": {
+            "salariu": 1.0,
+            "durata": 2,
+            "tip": "ROOKIE"
+          }
+        },
+        {
+          "nume": "Anthony Johnson",
+          "varsta": 34,
+          "pozitie": "PG",
+          "ppg": 7.5,
+          "apg": 4.5,
+          "rpg": 2.0,
+          "contract": {
+            "salariu": 3.5,
+            "durata": 1,
+            "tip": "MINIMUM"
+          }
+        },
+        {
+          "nume": "Speedy Claxton",
+          "varsta": 29,
+          "pozitie": "PG",
+          "ppg": 6.5,
+          "apg": 5.5,
+          "rpg": 2.5,
+          "contract": {
+            "salariu": 4.0,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Mario West",
+          "varsta": 24,
+          "pozitie": "SG",
+          "ppg": 4.0,
+          "apg": 1.5,
+          "rpg": 2.5,
+          "contract": {
+            "salariu": 0.5,
+            "durata": 1,
+            "tip": "ROOKIE"
+          }
+        },
+        {
+          "nume": "Sheldon Williams",
+          "varsta": 24,
+          "pozitie": "PF",
+          "ppg": 5.5,
+          "apg": 0.8,
+          "rpg": 5.0,
+          "contract": {
+            "salariu": 3.6,
+            "durata": 2,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Lorenzen Wright",
+          "varsta": 32,
+          "pozitie": "C",
+          "ppg": 7.0,
+          "apg": 0.8,
+          "rpg": 6.5,
+          "contract": {
+            "salariu": 4.0,
+            "durata": 1,
+            "tip": "MID"
+          }
+        }
+      ]
+    },
+    {
+      "nume": "Trail Blazers",
+      "oras": "Portland",
+      "conferinta": "West",
+      "salaryCap": 73.0,
+      "jucatori": [
+        {
+          "nume": "Zach Randolph",
+          "varsta": 26,
+          "pozitie": "PF",
+          "ppg": 20.0,
+          "apg": 2.5,
+          "rpg": 10.5,
+          "contract": {
+            "salariu": 14.0,
+            "durata": 1,
+            "tip": "MAX"
+          }
+        },
+        {
+          "nume": "Brandon Roy",
+          "varsta": 22,
+          "pozitie": "SG",
+          "ppg": 19.1,
+          "apg": 5.8,
+          "rpg": 4.7,
+          "contract": {
+            "salariu": 3.5,
+            "durata": 5,
+            "tip": "MAX"
+          }
+        },
+        {
+          "nume": "LaMarcus Aldridge",
+          "varsta": 22,
+          "pozitie": "PF",
+          "ppg": 17.8,
+          "apg": 1.5,
+          "rpg": 7.1,
+          "contract": {
+            "salariu": 3.4,
+            "durata": 4,
+            "tip": "ROOKIE"
+          }
+        },
+        {
+          "nume": "Travis Outlaw",
+          "varsta": 23,
+          "pozitie": "SF",
+          "ppg": 12.5,
+          "apg": 1.5,
+          "rpg": 5.0,
+          "contract": {
+            "salariu": 2.5,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Jarrett Jack",
+          "varsta": 24,
+          "pozitie": "PG",
+          "ppg": 12.0,
+          "apg": 5.5,
+          "rpg": 3.0,
+          "contract": {
+            "salariu": 3.0,
+            "durata": 3,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Joel Przybilla",
+          "varsta": 28,
+          "pozitie": "C",
+          "ppg": 7.5,
+          "apg": 1.0,
+          "rpg": 9.5,
+          "contract": {
+            "salariu": 5.0,
+            "durata": 2,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Sergio Rodriguez",
+          "varsta": 21,
+          "pozitie": "PG",
+          "ppg": 7.5,
+          "apg": 5.0,
+          "rpg": 2.5,
+          "contract": {
+            "salariu": 1.5,
+            "durata": 3,
+            "tip": "ROOKIE"
+          }
+        },
+        {
+          "nume": "Steve Blake",
+          "varsta": 27,
+          "pozitie": "PG",
+          "ppg": 7.0,
+          "apg": 5.5,
+          "rpg": 2.5,
+          "contract": {
+            "salariu": 4.5,
+            "durata": 2,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Ime Udoka",
+          "varsta": 30,
+          "pozitie": "SF",
+          "ppg": 5.5,
+          "apg": 1.5,
+          "rpg": 3.5,
+          "contract": {
+            "salariu": 1.5,
+            "durata": 1,
+            "tip": "MINIMUM"
+          }
+        },
+        {
+          "nume": "Channing Frye",
+          "varsta": 24,
+          "pozitie": "PF",
+          "ppg": 8.5,
+          "apg": 1.5,
+          "rpg": 5.0,
+          "contract": {
+            "salariu": 3.5,
+            "durata": 3,
+            "tip": "ROOKIE"
+          }
+        },
+        {
+          "nume": "Martell Webster",
+          "varsta": 20,
+          "pozitie": "SF",
+          "ppg": 8.0,
+          "apg": 1.5,
+          "rpg": 3.5,
+          "contract": {
+            "salariu": 3.1,
+            "durata": 4,
+            "tip": "ROOKIE"
+          }
+        },
+        {
+          "nume": "James Jones",
+          "varsta": 27,
+          "pozitie": "SF",
+          "ppg": 6.5,
+          "apg": 1.5,
+          "rpg": 3.0,
+          "contract": {
+            "salariu": 2.5,
+            "durata": 1,
+            "tip": "MINIMUM"
+          }
+        }
+      ]
+    },
+    {
+      "nume": "Grizzlies",
+      "oras": "Memphis",
+      "conferinta": "West",
+      "salaryCap": 73.0,
+      "jucatori": [
+        {
+          "nume": "Mike Conley",
+          "varsta": 20,
+          "pozitie": "PG",
+          "ppg": 9.8,
+          "apg": 5.4,
+          "rpg": 2.8,
+          "contract": {
+            "salariu": 1.5,
+            "durata": 5,
+            "tip": "ROOKIE"
+          }
+        },
+        {
+          "nume": "Rudy Gay",
+          "varsta": 21,
+          "pozitie": "SF",
+          "ppg": 20.1,
+          "apg": 2.5,
+          "rpg": 5.0,
+          "contract": {
+            "salariu": 3.5,
+            "durata": 4,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Pau Gasol",
+          "varsta": 27,
+          "pozitie": "C",
+          "ppg": 19.1,
+          "apg": 3.9,
+          "rpg": 8.9,
+          "contract": {
+            "salariu": 14.7,
+            "durata": 1,
+            "tip": "MAX"
+          }
+        },
+        {
+          "nume": "Hakim Warrick",
+          "varsta": 25,
+          "pozitie": "PF",
+          "ppg": 15.5,
+          "apg": 1.5,
+          "rpg": 6.5,
+          "contract": {
+            "salariu": 3.5,
+            "durata": 3,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Damon Stoudamire",
+          "varsta": 33,
+          "pozitie": "PG",
+          "ppg": 9.5,
+          "apg": 5.5,
+          "rpg": 2.5,
+          "contract": {
+            "salariu": 3.0,
+            "durata": 1,
+            "tip": "MINIMUM"
+          }
+        },
+        {
+          "nume": "Mike Miller",
+          "varsta": 27,
+          "pozitie": "SF",
+          "ppg": 11.5,
+          "apg": 3.0,
+          "rpg": 4.0,
+          "contract": {
+            "salariu": 6.0,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Darko Milicic",
+          "varsta": 22,
+          "pozitie": "C",
+          "ppg": 9.5,
+          "apg": 1.5,
+          "rpg": 7.0,
+          "contract": {
+            "salariu": 5.5,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Kyle Lowry",
+          "varsta": 21,
+          "pozitie": "PG",
+          "ppg": 8.5,
+          "apg": 4.5,
+          "rpg": 2.5,
+          "contract": {
+            "salariu": 0.8,
+            "durata": 3,
+            "tip": "ROOKIE"
+          }
+        },
+        {
+          "nume": "Stromile Swift",
+          "varsta": 27,
+          "pozitie": "PF",
+          "ppg": 8.5,
+          "apg": 0.8,
+          "rpg": 5.5,
+          "contract": {
+            "salariu": 4.0,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Antonio Burks",
+          "varsta": 26,
+          "pozitie": "PG",
+          "ppg": 6.0,
+          "apg": 3.5,
+          "rpg": 2.0,
+          "contract": {
+            "salariu": 1.0,
+            "durata": 1,
+            "tip": "MINIMUM"
+          }
+        },
+        {
+          "nume": "Quinton Ross",
+          "varsta": 26,
+          "pozitie": "SF",
+          "ppg": 5.5,
+          "apg": 2.0,
+          "rpg": 3.5,
+          "contract": {
+            "salariu": 1.2,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Greg Buckner",
+          "varsta": 32,
+          "pozitie": "SF",
+          "ppg": 5.0,
+          "apg": 1.5,
+          "rpg": 3.0,
+          "contract": {
+            "salariu": 2.0,
+            "durata": 1,
+            "tip": "MINIMUM"
+          }
+        }
+      ]
+    },
+    {
+      "nume": "Clippers",
+      "oras": "Los Angeles",
+      "conferinta": "West",
+      "salaryCap": 73.0,
+      "jucatori": [
+        {
+          "nume": "Elton Brand",
+          "varsta": 28,
+          "pozitie": "PF",
+          "ppg": 20.5,
+          "apg": 3.5,
+          "rpg": 8.5,
+          "contract": {
+            "salariu": 14.0,
+            "durata": 5,
+            "tip": "MAX"
+          }
+        },
+        {
+          "nume": "Cuttino Mobley",
+          "varsta": 31,
+          "pozitie": "SG",
+          "ppg": 14.5,
+          "apg": 2.5,
+          "rpg": 3.5,
+          "contract": {
+            "salariu": 8.0,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Corey Maggette",
+          "varsta": 27,
+          "pozitie": "SF",
+          "ppg": 22.0,
+          "apg": 3.0,
+          "rpg": 5.0,
+          "contract": {
+            "salariu": 10.5,
+            "durata": 1,
+            "tip": "MAX"
+          }
+        },
+        {
+          "nume": "Shaun Livingston",
+          "varsta": 22,
+          "pozitie": "PG",
+          "ppg": 9.0,
+          "apg": 5.5,
+          "rpg": 3.5,
+          "contract": {
+            "salariu": 5.0,
+            "durata": 3,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Marko Jaric",
+          "varsta": 27,
+          "pozitie": "SG",
+          "ppg": 8.5,
+          "apg": 3.5,
+          "rpg": 3.5,
+          "contract": {
+            "salariu": 6.0,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Chris Kaman",
+          "varsta": 25,
+          "pozitie": "C",
+          "ppg": 10.5,
+          "apg": 1.5,
+          "rpg": 9.0,
+          "contract": {
+            "salariu": 8.0,
+            "durata": 4,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Paul Davis",
+          "varsta": 23,
+          "pozitie": "PF",
+          "ppg": 8.0,
+          "apg": 1.0,
+          "rpg": 5.5,
+          "contract": {
+            "salariu": 1.2,
+            "durata": 3,
+            "tip": "ROOKIE"
+          }
+        },
+        {
+          "nume": "Tim Thomas",
+          "varsta": 31,
+          "pozitie": "SF",
+          "ppg": 9.5,
+          "apg": 1.5,
+          "rpg": 4.0,
+          "contract": {
+            "salariu": 6.5,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Quinton Ross",
+          "varsta": 26,
+          "pozitie": "SF",
+          "ppg": 5.5,
+          "apg": 2.0,
+          "rpg": 4.0,
+          "contract": {
+            "salariu": 1.5,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Al Thornton",
+          "varsta": 23,
+          "pozitie": "SF",
+          "ppg": 9.0,
+          "apg": 1.5,
+          "rpg": 4.5,
+          "contract": {
+            "salariu": 1.9,
+            "durata": 4,
+            "tip": "ROOKIE"
+          }
+        },
+        {
+          "nume": "Vladimir Radmanovic",
+          "varsta": 27,
+          "pozitie": "SF",
+          "ppg": 8.5,
+          "apg": 1.5,
+          "rpg": 4.5,
+          "contract": {
+            "salariu": 7.0,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "James Singleton",
+          "varsta": 26,
+          "pozitie": "PF",
+          "ppg": 5.5,
+          "apg": 1.0,
+          "rpg": 5.5,
+          "contract": {
+            "salariu": 1.5,
+            "durata": 1,
+            "tip": "MINIMUM"
+          }
+        }
+      ]
+    },
+    {
+      "nume": "Kings",
+      "oras": "Sacramento",
+      "conferinta": "West",
+      "salaryCap": 73.0,
+      "jucatori": [
+        {
+          "nume": "Ron Artest",
+          "varsta": 27,
+          "pozitie": "SF",
+          "ppg": 19.7,
+          "apg": 3.5,
+          "rpg": 5.5,
+          "contract": {
+            "salariu": 6.5,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Brad Miller",
+          "varsta": 31,
+          "pozitie": "C",
+          "ppg": 12.0,
+          "apg": 3.5,
+          "rpg": 8.5,
+          "contract": {
+            "salariu": 11.0,
+            "durata": 1,
+            "tip": "MAX"
+          }
+        },
+        {
+          "nume": "Mike Bibby",
+          "varsta": 29,
+          "pozitie": "PG",
+          "ppg": 16.5,
+          "apg": 5.5,
+          "rpg": 3.5,
+          "contract": {
+            "salariu": 9.0,
+            "durata": 1,
+            "tip": "MAX"
+          }
+        },
+        {
+          "nume": "Kevin Martin",
+          "varsta": 24,
+          "pozitie": "SG",
+          "ppg": 23.0,
+          "apg": 2.5,
+          "rpg": 3.5,
+          "contract": {
+            "salariu": 3.5,
+            "durata": 3,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "John Salmons",
+          "varsta": 27,
+          "pozitie": "SG",
+          "ppg": 12.5,
+          "apg": 4.0,
+          "rpg": 3.5,
+          "contract": {
+            "salariu": 3.5,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Francisco Garcia",
+          "varsta": 25,
+          "pozitie": "SG",
+          "ppg": 10.5,
+          "apg": 2.0,
+          "rpg": 3.5,
+          "contract": {
+            "salariu": 1.5,
+            "durata": 2,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Shareef Abdur-Rahim",
+          "varsta": 31,
+          "pozitie": "PF",
+          "ppg": 14.0,
+          "apg": 2.5,
+          "rpg": 7.0,
+          "contract": {
+            "salariu": 9.0,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Predrag Stojakovic",
+          "varsta": 30,
+          "pozitie": "SF",
+          "ppg": 13.0,
+          "apg": 1.5,
+          "rpg": 3.5,
+          "contract": {
+            "salariu": 14.0,
+            "durata": 1,
+            "tip": "MAX"
+          }
+        },
+        {
+          "nume": "Kenny Thomas",
+          "varsta": 31,
+          "pozitie": "PF",
+          "ppg": 8.0,
+          "apg": 1.5,
+          "rpg": 6.5,
+          "contract": {
+            "salariu": 6.0,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Quincy Douby",
+          "varsta": 22,
+          "pozitie": "SG",
+          "ppg": 8.0,
+          "apg": 2.5,
+          "rpg": 2.0,
+          "contract": {
+            "salariu": 1.5,
+            "durata": 2,
+            "tip": "ROOKIE"
+          }
+        },
+        {
+          "nume": "Jason Thompson",
+          "varsta": 22,
+          "pozitie": "PF",
+          "ppg": 8.0,
+          "apg": 1.0,
+          "rpg": 7.0,
+          "contract": {
+            "salariu": 1.9,
+            "durata": 4,
+            "tip": "ROOKIE"
+          }
+        },
+        {
+          "nume": "Mikki Moore",
+          "varsta": 30,
+          "pozitie": "C",
+          "ppg": 6.5,
+          "apg": 0.8,
+          "rpg": 6.0,
+          "contract": {
+            "salariu": 5.5,
+            "durata": 1,
+            "tip": "MID"
+          }
+        }
+      ]
+    },
+    {
+      "nume": "Mavericks",
+      "oras": "Dallas",
+      "conferinta": "West",
+      "salaryCap": 73.0,
+      "jucatori": [
+        {
+          "nume": "Dirk Nowitzki",
+          "varsta": 29,
+          "pozitie": "PF",
+          "ppg": 23.6,
+          "apg": 3.4,
+          "rpg": 8.6,
+          "contract": {
+            "salariu": 20.57,
+            "durata": 4,
+            "tip": "MAX"
+          }
+        },
+        {
+          "nume": "Jason Terry",
+          "varsta": 30,
+          "pozitie": "SG",
+          "ppg": 17.0,
+          "apg": 4.0,
+          "rpg": 3.5,
+          "contract": {
+            "salariu": 8.0,
+            "durata": 3,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Josh Howard",
+          "varsta": 27,
+          "pozitie": "SF",
+          "ppg": 16.5,
+          "apg": 3.5,
+          "rpg": 6.0,
+          "contract": {
+            "salariu": 9.0,
+            "durata": 4,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Jerry Stackhouse",
+          "varsta": 33,
+          "pozitie": "SG",
+          "ppg": 11.0,
+          "apg": 2.5,
+          "rpg": 3.0,
+          "contract": {
+            "salariu": 7.5,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Devin Harris",
+          "varsta": 24,
+          "pozitie": "PG",
+          "ppg": 15.5,
+          "apg": 6.0,
+          "rpg": 3.0,
+          "contract": {
+            "salariu": 6.0,
+            "durata": 2,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Erick Dampier",
+          "varsta": 32,
+          "pozitie": "C",
+          "ppg": 7.5,
+          "apg": 1.0,
+          "rpg": 8.5,
+          "contract": {
+            "salariu": 8.0,
+            "durata": 1,
+            "tip": "MAX"
+          }
+        },
+        {
+          "nume": "DeSagana Diop",
+          "varsta": 26,
+          "pozitie": "C",
+          "ppg": 5.5,
+          "apg": 0.8,
+          "rpg": 5.5,
+          "contract": {
+            "salariu": 8.0,
+            "durata": 4,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Jamaal Magloire",
+          "varsta": 29,
+          "pozitie": "C",
+          "ppg": 6.5,
+          "apg": 1.0,
+          "rpg": 6.0,
+          "contract": {
+            "salariu": 6.5,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Brandon Bass",
+          "varsta": 22,
+          "pozitie": "PF",
+          "ppg": 7.0,
+          "apg": 0.8,
+          "rpg": 5.0,
+          "contract": {
+            "salariu": 0.8,
+            "durata": 2,
+            "tip": "ROOKIE"
+          }
+        },
+        {
+          "nume": "Gerald Green",
+          "varsta": 21,
+          "pozitie": "SG",
+          "ppg": 9.0,
+          "apg": 1.5,
+          "rpg": 3.0,
+          "contract": {
+            "salariu": 1.5,
+            "durata": 2,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Austin Croshere",
+          "varsta": 33,
+          "pozitie": "PF",
+          "ppg": 6.5,
+          "apg": 1.5,
+          "rpg": 4.0,
+          "contract": {
+            "salariu": 5.0,
+            "durata": 1,
+            "tip": "MINIMUM"
+          }
+        },
+        {
+          "nume": "Devean George",
+          "varsta": 30,
+          "pozitie": "SF",
+          "ppg": 6.5,
+          "apg": 1.5,
+          "rpg": 4.0,
+          "contract": {
+            "salariu": 5.0,
+            "durata": 1,
+            "tip": "MID"
+          }
+        }
+      ]
+    },
+    {
+      "nume": "Pacers",
+      "oras": "Indiana",
+      "conferinta": "East",
+      "salaryCap": 73.0,
+      "jucatori": [
+        {
+          "nume": "Danny Granger",
+          "varsta": 24,
+          "pozitie": "SF",
+          "ppg": 19.6,
+          "apg": 2.5,
+          "rpg": 5.5,
+          "contract": {
+            "salariu": 3.1,
+            "durata": 6,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Jermaine O'Neal",
+          "varsta": 29,
+          "pozitie": "C",
+          "ppg": 16.5,
+          "apg": 2.0,
+          "rpg": 8.0,
+          "contract": {
+            "salariu": 22.5,
+            "durata": 1,
+            "tip": "MAX"
+          }
+        },
+        {
+          "nume": "Mike Dunleavy",
+          "varsta": 26,
+          "pozitie": "SF",
+          "ppg": 11.5,
+          "apg": 3.5,
+          "rpg": 5.5,
+          "contract": {
+            "salariu": 7.5,
+            "durata": 3,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Jamaal Tinsley",
+          "varsta": 29,
+          "pozitie": "PG",
+          "ppg": 9.5,
+          "apg": 7.5,
+          "rpg": 3.5,
+          "contract": {
+            "salariu": 5.5,
+            "durata": 2,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Marquis Daniels",
+          "varsta": 27,
+          "pozitie": "SG",
+          "ppg": 12.0,
+          "apg": 3.0,
+          "rpg": 4.0,
+          "contract": {
+            "salariu": 6.5,
+            "durata": 2,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Troy Murphy",
+          "varsta": 28,
+          "pozitie": "PF",
+          "ppg": 12.0,
+          "apg": 1.5,
+          "rpg": 9.0,
+          "contract": {
+            "salariu": 9.5,
+            "durata": 3,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Shawne Williams",
+          "varsta": 21,
+          "pozitie": "PF",
+          "ppg": 8.5,
+          "apg": 1.5,
+          "rpg": 4.5,
+          "contract": {
+            "salariu": 2.5,
+            "durata": 3,
+            "tip": "ROOKIE"
+          }
+        },
+        {
+          "nume": "Jeff Foster",
+          "varsta": 31,
+          "pozitie": "C",
+          "ppg": 6.5,
+          "apg": 2.0,
+          "rpg": 9.0,
+          "contract": {
+            "salariu": 5.5,
+            "durata": 2,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Jarrett Jack",
+          "varsta": 24,
+          "pozitie": "PG",
+          "ppg": 10.5,
+          "apg": 5.0,
+          "rpg": 3.0,
+          "contract": {
+            "salariu": 3.5,
+            "durata": 2,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "TJ Ford",
+          "varsta": 25,
+          "pozitie": "PG",
+          "ppg": 12.0,
+          "apg": 7.5,
+          "rpg": 3.5,
+          "contract": {
+            "salariu": 5.5,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Rasho Nesterovic",
+          "varsta": 31,
+          "pozitie": "C",
+          "ppg": 6.5,
+          "apg": 1.5,
+          "rpg": 6.5,
+          "contract": {
+            "salariu": 6.5,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Ike Diogu",
+          "varsta": 24,
+          "pozitie": "PF",
+          "ppg": 7.0,
+          "apg": 0.8,
+          "rpg": 5.5,
+          "contract": {
+            "salariu": 2.5,
+            "durata": 2,
+            "tip": "MID"
+          }
+        }
+      ]
+    },
+    {
+      "nume": "Warriors",
+      "oras": "Golden State",
+      "conferinta": "West",
+      "salaryCap": 73.0,
+      "jucatori": [
+        {
+          "nume": "Baron Davis",
+          "varsta": 28,
+          "pozitie": "PG",
+          "ppg": 21.8,
+          "apg": 8.1,
+          "rpg": 4.5,
+          "contract": {
+            "salariu": 12.7,
+            "durata": 2,
+            "tip": "MAX"
+          }
+        },
+        {
+          "nume": "Stephen Jackson",
+          "varsta": 29,
+          "pozitie": "SF",
+          "ppg": 19.5,
+          "apg": 4.0,
+          "rpg": 5.5,
+          "contract": {
+            "salariu": 6.0,
+            "durata": 2,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Monta Ellis",
+          "varsta": 22,
+          "pozitie": "SG",
+          "ppg": 19.4,
+          "apg": 4.0,
+          "rpg": 3.5,
+          "contract": {
+            "salariu": 2.5,
+            "durata": 3,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Matt Barnes",
+          "varsta": 27,
+          "pozitie": "SF",
+          "ppg": 9.5,
+          "apg": 2.5,
+          "rpg": 5.5,
+          "contract": {
+            "salariu": 2.5,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Andris Biedrins",
+          "varsta": 21,
+          "pozitie": "C",
+          "ppg": 11.5,
+          "apg": 1.5,
+          "rpg": 11.5,
+          "contract": {
+            "salariu": 6.0,
+            "durata": 5,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Mickael Pietrus",
+          "varsta": 25,
+          "pozitie": "SG",
+          "ppg": 11.0,
+          "apg": 2.0,
+          "rpg": 3.5,
+          "contract": {
+            "salariu": 4.5,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Al Harrington",
+          "varsta": 27,
+          "pozitie": "PF",
+          "ppg": 15.5,
+          "apg": 2.0,
+          "rpg": 6.0,
+          "contract": {
+            "salariu": 7.5,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Marco Belinelli",
+          "varsta": 21,
+          "pozitie": "SG",
+          "ppg": 7.0,
+          "apg": 1.5,
+          "rpg": 2.5,
+          "contract": {
+            "salariu": 1.5,
+            "durata": 3,
+            "tip": "ROOKIE"
+          }
+        },
+        {
+          "nume": "Kelenna Azubuike",
+          "varsta": 23,
+          "pozitie": "SG",
+          "ppg": 9.0,
+          "apg": 1.5,
+          "rpg": 3.5,
+          "contract": {
+            "salariu": 1.0,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Chris Hunter",
+          "varsta": 24,
+          "pozitie": "C",
+          "ppg": 5.5,
+          "apg": 0.5,
+          "rpg": 5.0,
+          "contract": {
+            "salariu": 0.5,
+            "durata": 1,
+            "tip": "ROOKIE"
+          }
+        },
+        {
+          "nume": "CJ Watson",
+          "varsta": 22,
+          "pozitie": "PG",
+          "ppg": 6.5,
+          "apg": 3.5,
+          "rpg": 2.0,
+          "contract": {
+            "salariu": 0.5,
+            "durata": 1,
+            "tip": "ROOKIE"
+          }
+        },
+        {
+          "nume": "Austin Croshere",
+          "varsta": 33,
+          "pozitie": "PF",
+          "ppg": 5.5,
+          "apg": 1.5,
+          "rpg": 3.5,
+          "contract": {
+            "salariu": 5.0,
+            "durata": 1,
+            "tip": "MINIMUM"
+          }
+        }
+      ]
+    },
+    {
+      "nume": "Heat",
+      "oras": "Miami",
+      "conferinta": "East",
+      "salaryCap": 73.0,
+      "jucatori": [
+        {
+          "nume": "Dwyane Wade",
+          "varsta": 26,
+          "pozitie": "SG",
+          "ppg": 24.6,
+          "apg": 7.5,
+          "rpg": 4.7,
+          "contract": {
+            "salariu": 15.0,
+            "durata": 3,
+            "tip": "MAX"
+          }
+        },
+        {
+          "nume": "Shaquille O'Neal",
+          "varsta": 35,
+          "pozitie": "C",
+          "ppg": 14.2,
+          "apg": 1.5,
+          "rpg": 7.5,
+          "contract": {
+            "salariu": 20.0,
+            "durata": 1,
+            "tip": "MAX"
+          }
+        },
+        {
+          "nume": "Udonis Haslem",
+          "varsta": 28,
+          "pozitie": "PF",
+          "ppg": 11.5,
+          "apg": 1.5,
+          "rpg": 8.5,
+          "contract": {
+            "salariu": 4.5,
+            "durata": 2,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Jason Williams",
+          "varsta": 32,
+          "pozitie": "PG",
+          "ppg": 9.5,
+          "apg": 6.5,
+          "rpg": 3.0,
+          "contract": {
+            "salariu": 5.0,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Mark Blount",
+          "varsta": 32,
+          "pozitie": "C",
+          "ppg": 8.0,
+          "apg": 0.8,
+          "rpg": 5.5,
+          "contract": {
+            "salariu": 8.2,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Marcus Banks",
+          "varsta": 26,
+          "pozitie": "PG",
+          "ppg": 8.5,
+          "apg": 4.5,
+          "rpg": 2.5,
+          "contract": {
+            "salariu": 3.0,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Ricky Davis",
+          "varsta": 28,
+          "pozitie": "SG",
+          "ppg": 12.5,
+          "apg": 2.5,
+          "rpg": 4.0,
+          "contract": {
+            "salariu": 8.0,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "James Posey",
+          "varsta": 31,
+          "pozitie": "SF",
+          "ppg": 8.5,
+          "apg": 2.0,
+          "rpg": 4.5,
+          "contract": {
+            "salariu": 4.0,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Michael Doleac",
+          "varsta": 29,
+          "pozitie": "C",
+          "ppg": 5.5,
+          "apg": 0.8,
+          "rpg": 4.5,
+          "contract": {
+            "salariu": 3.0,
+            "durata": 1,
+            "tip": "MINIMUM"
+          }
+        },
+        {
+          "nume": "Dorell Wright",
+          "varsta": 22,
+          "pozitie": "SF",
+          "ppg": 8.0,
+          "apg": 1.5,
+          "rpg": 3.5,
+          "contract": {
+            "salariu": 1.5,
+            "durata": 3,
+            "tip": "ROOKIE"
+          }
+        },
+        {
+          "nume": "Daequan Cook",
+          "varsta": 20,
+          "pozitie": "SG",
+          "ppg": 7.5,
+          "apg": 1.0,
+          "rpg": 2.5,
+          "contract": {
+            "salariu": 1.5,
+            "durata": 3,
+            "tip": "ROOKIE"
+          }
+        },
+        {
+          "nume": "Chris Quinn",
+          "varsta": 24,
+          "pozitie": "PG",
+          "ppg": 5.0,
+          "apg": 3.0,
+          "rpg": 1.5,
+          "contract": {
+            "salariu": 0.5,
+            "durata": 1,
+            "tip": "ROOKIE"
+          }
+        }
+      ]
+    },
+    {
+      "nume": "Wizards",
+      "oras": "Washington",
+      "conferinta": "East",
+      "salaryCap": 73.0,
+      "jucatori": [
+        {
+          "nume": "Gilbert Arenas",
+          "varsta": 26,
+          "pozitie": "PG",
+          "ppg": 25.5,
+          "apg": 6.0,
+          "rpg": 4.5,
+          "contract": {
+            "salariu": 15.0,
+            "durata": 6,
+            "tip": "MAX"
+          }
+        },
+        {
+          "nume": "Antawn Jamison",
+          "varsta": 31,
+          "pozitie": "PF",
+          "ppg": 22.1,
+          "apg": 2.5,
+          "rpg": 8.0,
+          "contract": {
+            "salariu": 13.6,
+            "durata": 4,
+            "tip": "MAX"
+          }
+        },
+        {
+          "nume": "Caron Butler",
+          "varsta": 27,
+          "pozitie": "SF",
+          "ppg": 18.0,
+          "apg": 3.5,
+          "rpg": 5.5,
+          "contract": {
+            "salariu": 13.6,
+            "durata": 4,
+            "tip": "MAX"
+          }
+        },
+        {
+          "nume": "Brendan Haywood",
+          "varsta": 27,
+          "pozitie": "C",
+          "ppg": 9.5,
+          "apg": 1.5,
+          "rpg": 8.5,
+          "contract": {
+            "salariu": 6.5,
+            "durata": 3,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "DeShawn Stevenson",
+          "varsta": 26,
+          "pozitie": "SG",
+          "ppg": 10.0,
+          "apg": 2.5,
+          "rpg": 3.5,
+          "contract": {
+            "salariu": 5.0,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Antonio Daniels",
+          "varsta": 31,
+          "pozitie": "PG",
+          "ppg": 8.5,
+          "apg": 5.5,
+          "rpg": 2.5,
+          "contract": {
+            "salariu": 6.0,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Roger Mason",
+          "varsta": 26,
+          "pozitie": "SG",
+          "ppg": 8.0,
+          "apg": 2.0,
+          "rpg": 2.5,
+          "contract": {
+            "salariu": 1.5,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Darius Songaila",
+          "varsta": 28,
+          "pozitie": "PF",
+          "ppg": 8.0,
+          "apg": 1.5,
+          "rpg": 5.0,
+          "contract": {
+            "salariu": 4.5,
+            "durata": 2,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Andray Blatche",
+          "varsta": 20,
+          "pozitie": "PF",
+          "ppg": 7.0,
+          "apg": 1.0,
+          "rpg": 5.5,
+          "contract": {
+            "salariu": 2.0,
+            "durata": 3,
+            "tip": "ROOKIE"
+          }
+        },
+        {
+          "nume": "Nick Young",
+          "varsta": 19,
+          "pozitie": "SG",
+          "ppg": 8.5,
+          "apg": 1.5,
+          "rpg": 2.5,
+          "contract": {
+            "salariu": 2.2,
+            "durata": 4,
+            "tip": "ROOKIE"
+          }
+        },
+        {
+          "nume": "Oleksiy Pecherov",
+          "varsta": 23,
+          "pozitie": "C",
+          "ppg": 4.5,
+          "apg": 0.8,
+          "rpg": 4.0,
+          "contract": {
+            "salariu": 1.5,
+            "durata": 3,
+            "tip": "ROOKIE"
+          }
+        },
+        {
+          "nume": "Etan Thomas",
+          "varsta": 28,
+          "pozitie": "C",
+          "ppg": 5.5,
+          "apg": 0.8,
+          "rpg": 5.5,
+          "contract": {
+            "salariu": 5.0,
+            "durata": 1,
+            "tip": "MID"
+          }
+        }
+      ]
+    },
+    {
+      "nume": "Thunder",
+      "oras": "Seattle",
+      "conferinta": "West",
+      "salaryCap": 73.0,
+      "jucatori": [
+        {
+          "nume": "Kevin Durant",
+          "varsta": 19,
+          "pozitie": "SF",
+          "ppg": 20.0,
+          "apg": 2.8,
+          "rpg": 4.4,
+          "contract": {
+            "salariu": 4.17,
+            "durata": 5,
+            "tip": "ROOKIE"
+          }
+        },
+        {
+          "nume": "Chris Wilcox",
+          "varsta": 26,
+          "pozitie": "C",
+          "ppg": 12.5,
+          "apg": 1.5,
+          "rpg": 8.5,
+          "contract": {
+            "salariu": 4.5,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Luke Ridnour",
+          "varsta": 26,
+          "pozitie": "PG",
+          "ppg": 12.0,
+          "apg": 6.0,
+          "rpg": 3.5,
+          "contract": {
+            "salariu": 4.5,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Rashard Lewis",
+          "varsta": 28,
+          "pozitie": "SF",
+          "ppg": 18.5,
+          "apg": 2.5,
+          "rpg": 6.0,
+          "contract": {
+            "salariu": 15.0,
+            "durata": 2,
+            "tip": "MAX"
+          }
+        },
+        {
+          "nume": "Ray Allen",
+          "varsta": 32,
+          "pozitie": "SG",
+          "ppg": 18.0,
+          "apg": 3.5,
+          "rpg": 3.5,
+          "contract": {
+            "salariu": 16.5,
+            "durata": 2,
+            "tip": "MAX"
+          }
+        },
+        {
+          "nume": "Jeff Green",
+          "varsta": 22,
+          "pozitie": "SF",
+          "ppg": 9.5,
+          "apg": 2.0,
+          "rpg": 5.0,
+          "contract": {
+            "salariu": 2.4,
+            "durata": 4,
+            "tip": "ROOKIE"
+          }
+        },
+        {
+          "nume": "Nick Collison",
+          "varsta": 27,
+          "pozitie": "PF",
+          "ppg": 8.5,
+          "apg": 2.5,
+          "rpg": 7.5,
+          "contract": {
+            "salariu": 5.5,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Wally Szczerbiak",
+          "varsta": 31,
+          "pozitie": "SG",
+          "ppg": 10.5,
+          "apg": 2.0,
+          "rpg": 3.5,
+          "contract": {
+            "salariu": 8.0,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Vladimir Radmanovic",
+          "varsta": 27,
+          "pozitie": "SF",
+          "ppg": 9.5,
+          "apg": 1.5,
+          "rpg": 5.0,
+          "contract": {
+            "salariu": 8.0,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Damien Wilkins",
+          "varsta": 28,
+          "pozitie": "SF",
+          "ppg": 8.0,
+          "apg": 2.5,
+          "rpg": 3.5,
+          "contract": {
+            "salariu": 3.0,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Johan Petro",
+          "varsta": 22,
+          "pozitie": "C",
+          "ppg": 5.5,
+          "apg": 0.8,
+          "rpg": 5.5,
+          "contract": {
+            "salariu": 2.0,
+            "durata": 2,
+            "tip": "ROOKIE"
+          }
+        },
+        {
+          "nume": "Mickael Gelabale",
+          "varsta": 23,
+          "pozitie": "SF",
+          "ppg": 6.0,
+          "apg": 1.5,
+          "rpg": 3.5,
+          "contract": {
+            "salariu": 1.5,
+            "durata": 2,
+            "tip": "ROOKIE"
+          }
+        }
+      ]
+    },
+    {
+      "nume": "Timberwolves",
+      "oras": "Minnesota",
+      "conferinta": "West",
+      "salaryCap": 73.0,
+      "jucatori": [
+        {
+          "nume": "Kevin Garnett",
+          "varsta": 31,
+          "pozitie": "PF",
+          "ppg": 18.8,
+          "apg": 4.0,
+          "rpg": 8.5,
+          "contract": {
+            "salariu": 21.0,
+            "durata": 1,
+            "tip": "MAX"
+          }
+        },
+        {
+          "nume": "Al Jefferson",
+          "varsta": 22,
+          "pozitie": "C",
+          "ppg": 19.2,
+          "apg": 1.5,
+          "rpg": 11.3,
+          "contract": {
+            "salariu": 3.1,
+            "durata": 4,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Randy Foye",
+          "varsta": 23,
+          "pozitie": "PG",
+          "ppg": 14.5,
+          "apg": 4.5,
+          "rpg": 3.5,
+          "contract": {
+            "salariu": 3.6,
+            "durata": 4,
+            "tip": "ROOKIE"
+          }
+        },
+        {
+          "nume": "Ricky Davis",
+          "varsta": 28,
+          "pozitie": "SG",
+          "ppg": 14.0,
+          "apg": 3.0,
+          "rpg": 4.5,
+          "contract": {
+            "salariu": 8.5,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Mark Blount",
+          "varsta": 32,
+          "pozitie": "C",
+          "ppg": 8.5,
+          "apg": 0.8,
+          "rpg": 5.5,
+          "contract": {
+            "salariu": 8.2,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Sebastian Telfair",
+          "varsta": 22,
+          "pozitie": "PG",
+          "ppg": 10.0,
+          "apg": 5.5,
+          "rpg": 3.5,
+          "contract": {
+            "salariu": 2.5,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Antoine Walker",
+          "varsta": 31,
+          "pozitie": "PF",
+          "ppg": 11.5,
+          "apg": 3.5,
+          "rpg": 6.5,
+          "contract": {
+            "salariu": 8.0,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Corey Brewer",
+          "varsta": 22,
+          "pozitie": "SF",
+          "ppg": 9.0,
+          "apg": 2.5,
+          "rpg": 3.5,
+          "contract": {
+            "salariu": 3.1,
+            "durata": 4,
+            "tip": "ROOKIE"
+          }
+        },
+        {
+          "nume": "Mike Miller",
+          "varsta": 27,
+          "pozitie": "SF",
+          "ppg": 11.0,
+          "apg": 3.0,
+          "rpg": 4.0,
+          "contract": {
+            "salariu": 6.5,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Gerald Green",
+          "varsta": 21,
+          "pozitie": "SG",
+          "ppg": 10.0,
+          "apg": 1.5,
+          "rpg": 3.5,
+          "contract": {
+            "salariu": 3.5,
+            "durata": 2,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Craig Smith",
+          "varsta": 23,
+          "pozitie": "PF",
+          "ppg": 8.0,
+          "apg": 1.0,
+          "rpg": 5.5,
+          "contract": {
+            "salariu": 1.5,
+            "durata": 2,
+            "tip": "ROOKIE"
+          }
+        },
+        {
+          "nume": "Brian Cardinal",
+          "varsta": 30,
+          "pozitie": "PF",
+          "ppg": 5.5,
+          "apg": 1.5,
+          "rpg": 4.5,
+          "contract": {
+            "salariu": 5.0,
+            "durata": 1,
+            "tip": "MINIMUM"
+          }
+        }
+      ]
+    },
+    {
+      "nume": "Bobcats",
+      "oras": "Charlotte",
+      "conferinta": "East",
+      "salaryCap": 73.0,
+      "jucatori": [
+        {
+          "nume": "Gerald Wallace",
+          "varsta": 25,
+          "pozitie": "SF",
+          "ppg": 16.5,
+          "apg": 3.5,
+          "rpg": 7.5,
+          "contract": {
+            "salariu": 4.0,
+            "durata": 3,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Emeka Okafor",
+          "varsta": 24,
+          "pozitie": "C",
+          "ppg": 12.5,
+          "apg": 1.0,
+          "rpg": 10.0,
+          "contract": {
+            "salariu": 8.0,
+            "durata": 5,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Raymond Felton",
+          "varsta": 23,
+          "pozitie": "PG",
+          "ppg": 12.5,
+          "apg": 6.0,
+          "rpg": 3.0,
+          "contract": {
+            "salariu": 3.1,
+            "durata": 3,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Matt Carroll",
+          "varsta": 27,
+          "pozitie": "SG",
+          "ppg": 12.0,
+          "apg": 2.0,
+          "rpg": 3.5,
+          "contract": {
+            "salariu": 5.5,
+            "durata": 2,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Adam Morrison",
+          "varsta": 22,
+          "pozitie": "SF",
+          "ppg": 8.5,
+          "apg": 1.5,
+          "rpg": 3.5,
+          "contract": {
+            "salariu": 5.4,
+            "durata": 3,
+            "tip": "ROOKIE"
+          }
+        },
+        {
+          "nume": "Derek Anderson",
+          "varsta": 33,
+          "pozitie": "SG",
+          "ppg": 10.5,
+          "apg": 3.0,
+          "rpg": 3.5,
+          "contract": {
+            "salariu": 5.5,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Kareem Rush",
+          "varsta": 27,
+          "pozitie": "SG",
+          "ppg": 9.5,
+          "apg": 1.5,
+          "rpg": 2.5,
+          "contract": {
+            "salariu": 2.5,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Nazr Mohammed",
+          "varsta": 31,
+          "pozitie": "C",
+          "ppg": 9.5,
+          "apg": 1.0,
+          "rpg": 7.5,
+          "contract": {
+            "salariu": 7.5,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Sean May",
+          "varsta": 24,
+          "pozitie": "PF",
+          "ppg": 7.0,
+          "apg": 1.0,
+          "rpg": 5.5,
+          "contract": {
+            "salariu": 4.5,
+            "durata": 3,
+            "tip": "ROOKIE"
+          }
+        },
+        {
+          "nume": "Ryan Hollins",
+          "varsta": 23,
+          "pozitie": "C",
+          "ppg": 5.0,
+          "apg": 0.5,
+          "rpg": 4.0,
+          "contract": {
+            "salariu": 1.5,
+            "durata": 2,
+            "tip": "ROOKIE"
+          }
+        },
+        {
+          "nume": "Primoz Brezec",
+          "varsta": 27,
+          "pozitie": "C",
+          "ppg": 7.0,
+          "apg": 0.8,
+          "rpg": 5.5,
+          "contract": {
+            "salariu": 5.0,
+            "durata": 1,
+            "tip": "MID"
+          }
+        },
+        {
+          "nume": "Walter Herrmann",
+          "varsta": 27,
+          "pozitie": "SF",
+          "ppg": 6.5,
+          "apg": 1.5,
+          "rpg": 3.5,
+          "contract": {
+            "salariu": 2.0,
+            "durata": 1,
+            "tip": "MINIMUM"
+          }
+        }
+      ]
+    }
+  ]
+}
