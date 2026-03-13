@@ -4,13 +4,6 @@
 #include <iostream>
 #include <iomanip>
 
-int Sezon::gasesteIndexEchipa(const std::string& nume) const {
-    for (int i = 0; i < (int)echipe.size(); i++)
-        if (echipe[i].getNume() == nume)
-            return i;
-    return -1;
-}
-
 Sezon::Sezon(const std::string& an, const std::string& campioana)
     : an(an), campioana(campioana), nrEchipe(0) {}
 

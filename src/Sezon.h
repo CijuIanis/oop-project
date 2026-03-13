@@ -11,8 +11,6 @@ private:
     int nrEchipe;
     std::vector<Echipa> echipe;
 
-    int gasesteIndexEchipa(const std::string& nume) const;
-
 public:
     Sezon(const std::string& an, const std::string& campioana);
 

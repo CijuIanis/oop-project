@@ -43,7 +43,7 @@ int main() {
         if (input == "exit") break;
 
         bool gasit = false;
-        for (auto& sezon : season) {
+        for (const auto& sezon : season) {
             if (sezon.getAn() == input) {
                 gasit = true;
                 std::cout << "\n" << sezon << "\n";
