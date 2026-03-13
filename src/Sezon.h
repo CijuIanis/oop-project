@@ -7,9 +7,9 @@
 class Sezon {
 private:
     std::string an;
+    std::string campioana;
     int nrEchipe;
     std::vector<Echipa> echipe;
-    std::string campioana;
 
     int gasesteIndexEchipa(const std::string& nume) const;
 

@@ -49,7 +49,7 @@ std::ostream& operator<<(std::ostream& os, const Echipa& echipa) {
        << " [" << echipa.conferinta << "] ===\n"
        << "Salary Cap: $" << echipa.salaryCap << "M | "
        << "Salarii totale: $" << echipa.calculeazaSalariiTotale() << "M | "
-       << (echipa.esteSubSalaryCap() ? "✅ Sub cap" : "❌ Peste cap") << "\n"
+       << (echipa.esteSubSalaryCap() ? "Sub cap" : "Peste cap") << "\n"
        << "Roster (" << echipa.roster.size() << " jucatori):\n";
     for (const auto& player : echipa.roster)
         os << "  " << player << "\n";

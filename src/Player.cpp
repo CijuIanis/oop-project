@@ -45,7 +45,7 @@ std::ostream& operator<<(std::ostream& os, const Player& player) {
        << player.name
        << " (age: " << player.age << ") | "
        << player.getStatLine() << " | "
-       << (player.isAllStar() ? "⭐ All-Star" : "Role Player") << "\n"
+       << (player.isAllStar() ? "All-Star" : "Role Player") << "\n"
        << "  " << player.contract;
     return os;
 }
