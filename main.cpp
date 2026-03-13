@@ -88,6 +88,14 @@ int main() {
     if (!season.empty()) {
         std::cout << "Nr echipe: " << season[0].getNrEchipe() << "\n";
     }
+    std::cout << "Varsta: " << p.getAge() << "\n";
+    std::cout << "Pase: " << p.getAssistsPerGame() << "\n";
 
+    if (!season.empty()) {
+        std::cout << "Campioana: " << season[0].getCampioana() << "\n";
+    }
+    if (!season.empty() && !season[0].getEchipe().empty()) {
+        std::cout << "Conferinta: " << season[0].getEchipe()[0].getConferinta() << "\n";
+    }
     return 0;
 }
