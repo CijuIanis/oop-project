@@ -9,7 +9,7 @@ ext/** linguist-vendored
 *.json linguist-detectable=false
 *.txt linguist-detectable=false
 *.md linguist-detectable=false
-CMakeLists.txt linguist-detectable=false
-*.cmake linguist-detectable=false
+; CMakeLists.txt linguist-detectable=false
+; *.cmake linguist-detectable=false
 *.sh linguist-detectable=false
 *.props linguist-detectable=false

@@ -60,11 +60,26 @@ int main() {
             std::cout << "Sezonul '" << input << "' nu a fost gasit!\n";
     }
 
-    std::cout << "\n--- Test Contract copy ---\n";
+    std::cout << "\n--- Test Contract ---\n";
     Contract c1(30.14, 1, "MAX");
     Contract c2 = c1;
     Contract c3(1.0, 1, "ROOKIE");
     c3 = c1;
+    std::cout << "Tip: " << c1.getType() << "\n";
+    std::cout << "Este MAX: " << c1.isMaxContract() << "\n";
+    std::cout << "Valoare ramasa: " << c1.getRemainingValue(0) << "\n";
+
+    std::cout << "\n--- Test Player ---\n";
+    Player p("Test Player", 25, "PG", 20.0, 5.0, 5.0, c1);
+    std::cout << "Pozitie: " << p.getPosition() << "\n";
+    std::cout << "Recuperari: " << p.getReboundsPerGame() << "\n";
+
+    std::cout << "\n--- Test Echipa ---\n";
+    if (!season.empty() && !season[0].getEchipe().empty()) {
+        const Echipa& e = season[0].getEchipe()[0];
+        std::cout << "Salary Cap: " << e.getSalaryCap() << "\n";
+        std::cout << "Nr jucatori: " << e.getRoster().size() << "\n";
+    }
 
     return 0;
 }
