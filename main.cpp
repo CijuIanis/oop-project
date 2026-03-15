@@ -3,6 +3,7 @@
 #include <string>
 #include "Sezon.h"
 #include "SezonLoader.h"
+#include "Utilitati.h"
 
 int main() {
     std::vector<std::string> fisiere = {
@@ -97,5 +98,9 @@ int main() {
     if (!season.empty() && !season[0].getEchipe().empty()) {
         std::cout << "Conferinta: " << season[0].getEchipe()[0].getConferinta() << "\n";
     }
+    std::cout << Utilitati::formatSalary(30.14) << "\n";
+    std::cout << Utilitati::formatStatLine(30.4, 4.3, 6.6) << "\n";
+    std::cout << Utilitati::isValidPosition("PG") << "\n";
+    std::cout << Utilitati::isValidSeason("1995-96") << "\n";
     return 0;
 }

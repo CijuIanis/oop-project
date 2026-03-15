@@ -45,6 +45,7 @@ FetchContent_MakeAvailable(nlohmann_json)
 # NOTE: update executable name in .github/workflows/cmake.yml:25 when changing name here
 add_executable(${MAIN_EXECUTABLE_NAME}
         main.cpp
+        src/Utilitati.cpp
 )
 target_sources(${MAIN_EXECUTABLE_NAME}
         PRIVATE
@@ -53,6 +54,7 @@ target_sources(${MAIN_EXECUTABLE_NAME}
         src/Echipa.cpp
         src/Sezon.cpp
         src/SezonLoader.cpp
+        src/Utilitati.cpp
 )
 
 # NOTE: Add all defined targets (e.g. executables, libraries, etc. )
