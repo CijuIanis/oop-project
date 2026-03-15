@@ -102,5 +102,7 @@ int main() {
     std::cout << Utilitati::formatStatLine(30.4, 4.3, 6.6) << "\n";
     std::cout << Utilitati::isValidPosition("PG") << "\n";
     std::cout << Utilitati::isValidSeason("1995-96") << "\n";
+    std::cout << "Salariu valid: " << Utilitati::isValidSalary(30.14) << "\n";
+    std::cout << "Tip de contract valid: " << Utilitati::isValidContractType("MAX") << "\n";
     return 0;
 }
