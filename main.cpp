@@ -1,26 +1,17 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include <filesystem>
 #include "Sezon.h"
 #include "SezonLoader.h"
 #include "Utilitati.h"
 
 int main() {
-    std::vector<std::string> fisiere = {
-        "data/seasons/1965-66.json",
-        "data/seasons/1971-72.json",
-        "data/seasons/1985-86.json",
-        "data/seasons/1990-91.json",
-        "data/seasons/1995-96.json",
-        "data/seasons/1997-98.json",
-        "data/seasons/1999-00.json",
-        "data/seasons/2007-08.json",
-        "data/seasons/2012-13.json",
-        "data/seasons/2015-16.json",
-        "data/seasons/2018-19.json",
-        "data/seasons/2020-21.json",
-        "data/seasons/2022-23.json"
-    };
+    std::vector<std::string> fisiere;
+    for (const auto& entry : std::filesystem::directory_iterator("data/seasons/")) {
+        if (entry.path().extension() == ".json")
+            fisiere.push_back(entry.path().string());
+    }
 
     std::vector<Sezon> season;
     for (const auto& fisier : fisiere) {
