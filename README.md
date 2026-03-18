@@ -2,12 +2,12 @@
 
 In acest proiect am facut un simulator de sezoane, in opinia mea, interesante, din NBA. Aplicatia permite selectarea unui sezon din cele 13 la dispozitie (ex: 1965-66, 1999-00, 2007-08, 2022-23 etc.).
 
-Fiecare sezon are echipe cu lotul intreg si cu stats-urile jucatorilor adevarate (aceste informatii au fost generate de inteligenta artificiala, deoarece mi-ar fi luat foarte mult timp sa scriu cate 12 jucatori per echipa pentru 9, 17, 23, 27, 29 sau 30 de echipe, depinde de sezon).
+Fiecare sezon are echipe cu lotul intreg si cu stats-urile jucatorilor adevarate (aceste informatii au fost generate de inteligenta artificiala, deoarece mi-ar fi luat foarte mult timp sa scriu cate 12 jucatori per echipa pentru 9, 17, 23, 27, 29 sau 30 de echipe, depinde de sezon). Pentru a stabili daca un jucator este All-Star sau Role Player am facut o medie a statisticilor, deoarece acest lucru este diferit de la sezon la sezon. (ex: in anul 1965-66 un jucator All-Star ar fi avut stats-uri mai slabe decat unul din sezonul 2022-23. De aceea am pus conditiile: >= 18 PPG || >= 14 PPG && >= 7 APG || >= 14 PPG && >= 8 RPG).
 
 Functionalitati principale:
 - Explorarea echipelor si jucatorilor din fiecare sezon
 - Calculul statisticilor individuale (PPG, APG, RPG)
-- Identificarea celui mai bun jucator dintr-un sezon (pentrtu Tema 1 am calculat prin formula: PPG + APG * 0.75 + RPG * 0.5)
+- Identificarea celui mai bun jucator dintr-un sezon (pentru Tema 1 am calculat prin formula: PPG + APG * 0.75 + RPG * 0.5)
 - Determinarea favoritei la titlu pe baza scorului de impact (am folosit aceeasi formula ca la cel mai bun jucator, iar daca un jucator este All-Star conform unor criterii de puncte, pase sau recuperari, rezultatul este inmultit cu 1.5. Favorita la titlu se afla prin suma tuturor scorurilor de impact ale jucatorilor din fiecare echipa)
 
 
