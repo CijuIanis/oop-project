@@ -1,4 +1,4 @@
-#Simulator NBA
+# Simulator NBA
 
 In acest proiect am facut un simulator de sezoane, in opinia mea, interesante, din NBA. Aplicatia permite selectarea unui sezon din cele 13 la dispozitie (ex: 1965-66, 1999-00, 2007-08, 2022-23 etc.).
 
@@ -9,6 +9,8 @@ Functionalitati principale:
 - Calculul statisticilor individuale (PPG, APG, RPG)
 - Identificarea celui mai bun jucator dintr-un sezon (pentrtu Tema 1 am calculat prin formula: PPG + APG * 0.75 + RPG * 0.5)
 - Determinarea favoritei la titlu pe baza scorului de impact (am folosit aceeasi formula ca la cel mai bun jucator, iar daca un jucator este All-Star conform unor criterii de puncte, pase sau recuperari, rezultatul este inmultit cu 1.5. Favorita la titlu se afla prin suma tuturor scorurilor de impact ale jucatorilor din fiecare echipa)
+
+
 
 - **Fără cod de umplutură/fără sens!**
 - **Fără copy-paste!**
