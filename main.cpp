@@ -2,6 +2,7 @@
 #include <vector>
 #include <string>
 #include <filesystem>
+#include <algorithm>
 #include "Sezon.h"
 #include "SezonLoader.h"
 #include "Utilitati.h"
@@ -9,10 +10,11 @@
 int main() {
     std::vector<std::string> fisiere;
     for (const auto& entry : std::filesystem::directory_iterator("data/seasons/")) {
-        if (entry.path().extension() == ".json")
+        if (entry.path().extension() == ".json") {
             fisiere.push_back(entry.path().string());
+        }
     }
-
+    std::sort(fisiere.begin(), fisiere.end());
     std::vector<Sezon> season;
     for (const auto& fisier : fisiere) {
         try {

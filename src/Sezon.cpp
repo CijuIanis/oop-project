@@ -52,11 +52,12 @@ void Sezon::afiseazaClassament() const {
 
     std::cout << "\nClasament Sezon " << an << ":\n";
     std::cout << std::string(50, '-') << "\n";
-    for (int i = 0; i < (int)sorted.size(); i++) {
-        std::cout << std::setw(2) << (i + 1) << ". "
-                  << std::setw(25) << std::left << sorted[i]->getNume()
-                  << " | Impact: " << std::fixed << std::setprecision(1)
-                  << sorted[i]->getScorImpact() << "\n";
+    for (int i = 0; i < (int)sorted.size(); i++)
+    {
+        std::cout << (i + 1) << ". "
+        << std::setw(25) << std::left << sorted[i]->getNume()
+        << " | Impact: " << std::fixed << std::setprecision(1)
+        << sorted[i]->getScorImpact() << "\n";
     }
     std::cout << "Campioana reala: " << campioana << "\n";
 }
