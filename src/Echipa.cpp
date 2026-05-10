@@ -2,12 +2,13 @@
 #include <stdexcept>
 #include <sstream>
 #include <iomanip>
+#include <algorithm>
 #include <tabulate/table.hpp>
 
 double Echipa::calculeazaSalariiTotale() const {
     double total = 0.0;
     for (const auto& player : roster)
-        total += player.getContract().getSalaryPerYear();
+        total += player->getContract().getSalaryPerYear();
     return total;
 }
 
@@ -15,20 +16,43 @@ Echipa::Echipa(const std::string& nume, const std::string& oras,
                const std::string& conferinta, double salaryCap)
     : nume(nume), oras(oras), conferinta(conferinta), salaryCap(salaryCap) {}
 
+// Copy constructor - foloseste clone() pentru copiere corecta prin pointer de baza
+Echipa::Echipa(const Echipa& other)
+    : nume(other.nume), oras(other.oras),
+      conferinta(other.conferinta), salaryCap(other.salaryCap) {
+    for (const auto& player : other.roster)
+        roster.push_back(std::unique_ptr<Player>(player->clone()));
+}
+
+// swap - necesar pentru copy-and-swap
+void swap(Echipa& a, Echipa& b) noexcept {
+    std::swap(a.nume, b.nume);
+    std::swap(a.oras, b.oras);
+    std::swap(a.conferinta, b.conferinta);
+    std::swap(a.salaryCap, b.salaryCap);
+    std::swap(a.roster, b.roster);
+}
+
+// operator= cu copy-and-swap
+Echipa& Echipa::operator=(Echipa other) {
+    swap(*this, other);
+    return *this;
+}
+
 const std::string& Echipa::getNume() const { return nume; }
 const std::string& Echipa::getOras() const { return oras; }
 const std::string& Echipa::getConferinta() const { return conferinta; }
 double Echipa::getSalaryCap() const { return salaryCap; }
-const std::vector<Player>& Echipa::getRoster() const { return roster; }
+const std::vector<std::unique_ptr<Player>>& Echipa::getRoster() const { return roster; }
 
 void Echipa::adaugaJucator(const Player& player) {
-    roster.push_back(player);
+    roster.push_back(std::unique_ptr<Player>(player.clone()));
 }
 
 double Echipa::getScorImpact() const {
     double total = 0.0;
     for (const auto& player : roster)
-        total += player.getImpactScore();
+        total += player->getImpactScore();
     return total;
 }
 
@@ -40,10 +64,10 @@ const Player& Echipa::getCelMaiBunJucator() const {
     if (roster.empty())
         throw std::runtime_error("Echipa nu are jucatori!");
 
-    const Player* best = &roster[0];
+    const Player* best = roster[0].get();
     for (const auto& player : roster)
-        if (player.getImpactScore() > best->getImpactScore())
-            best = &player;
+        if (player->getImpactScore() > best->getImpactScore())
+            best = player.get();
     return *best;
 }
 
@@ -60,33 +84,31 @@ std::ostream& operator<<(std::ostream& os, const Echipa& echipa) {
 
     for (const auto& player : echipa.roster) {
         std::ostringstream ppg, apg, rpg, sal;
-        ppg << std::fixed << std::setprecision(1) << player.getPointsPerGame();
-        apg << std::fixed << std::setprecision(1) << player.getAssistsPerGame();
-        rpg << std::fixed << std::setprecision(1) << player.getReboundsPerGame();
-        sal << "$" << std::fixed << std::setprecision(2) << player.getContract().getSalaryPerYear() << "M";
+        ppg << std::fixed << std::setprecision(1) << player->getPointsPerGame();
+        apg << std::fixed << std::setprecision(1) << player->getAssistsPerGame();
+        rpg << std::fixed << std::setprecision(1) << player->getReboundsPerGame();
+        sal << "$" << std::fixed << std::setprecision(2) << player->getContract().getSalaryPerYear() << "M";
 
         tabel.add_row({
-            player.getPosition(),
-            player.getName(),
-            std::to_string(player.getAge()),
+            player->getPosition(),
+            player->getName(),
+            std::to_string(player->getAge()),
             ppg.str(),
             apg.str(),
             rpg.str(),
-            player.getContract().getType(),
+            player->getContract().getType(),
             sal.str(),
-            player.isAllStar() ? "All-Star" : "Role Player"
+            player->isAllStar() ? "All-Star" : "Role Player"
         });
     }
 
-    // header galben si bold
     tabel[0].format()
         .font_style({tabulate::FontStyle::bold})
         .font_align(tabulate::FontAlign::center)
         .font_color(tabulate::Color::yellow);
 
-    // All-Star verde, Role Player albastru
     for (auto i = 1u; i <= echipa.roster.size(); i++) {
-        if (echipa.roster[i - 1].isAllStar()) {
+        if (echipa.roster[i - 1]->isAllStar()) {
             tabel[i].format().font_color(tabulate::Color::green);
         } else {
             tabel[i].format().font_color(tabulate::Color::blue);

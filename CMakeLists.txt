@@ -53,6 +53,14 @@ FetchContent_MakeAvailable(nlohmann_json tabulate)
 # NOTE: update executable name in .github/workflows/cmake.yml:25 when changing name here
 add_executable(${MAIN_EXECUTABLE_NAME}
         main.cpp
+        src/Exceptii.h
+        src/Exceptii.cpp
+        src/Guard.cpp
+        src/Guard.h
+        src/Forward.cpp
+        src/Forward.h
+        src/Center.cpp
+        src/Center.h
 )
 target_sources(${MAIN_EXECUTABLE_NAME}
         PRIVATE
@@ -62,6 +70,10 @@ target_sources(${MAIN_EXECUTABLE_NAME}
         src/Sezon.cpp
         src/SezonLoader.cpp
         src/Utilitati.cpp
+        src/Exceptii.cpp
+        src/Guard.cpp
+        src/Forward.cpp
+        src/Center.cpp
 )
 
 # NOTE: Add all defined targets (e.g. executables, libraries, etc. )

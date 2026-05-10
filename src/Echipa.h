@@ -1,6 +1,7 @@
 #pragma once
 #include <string>
 #include <vector>
+#include <memory>
 #include <ostream>
 #include "Player.h"
 
@@ -10,7 +11,7 @@ private:
     std::string oras;
     std::string conferinta;
     double salaryCap;
-    std::vector<Player> roster;
+    std::vector<std::unique_ptr<Player>> roster;
 
     double calculeazaSalariiTotale() const;
 
@@ -18,11 +19,16 @@ public:
     Echipa(const std::string& nume, const std::string& oras,
            const std::string& conferinta, double salaryCap);
 
+    // Copy constructor si operator= cu copy-and-swap
+    Echipa(const Echipa& other);
+    Echipa& operator=(Echipa other);
+    ~Echipa() = default;
+
     const std::string& getNume() const;
     const std::string& getOras() const;
     const std::string& getConferinta() const;
     double getSalaryCap() const;
-    const std::vector<Player>& getRoster() const;
+    const std::vector<std::unique_ptr<Player>>& getRoster() const;
 
     void adaugaJucator(const Player& player);
     double getScorImpact() const;
@@ -30,4 +36,5 @@ public:
     const Player& getCelMaiBunJucator() const;
 
     friend std::ostream& operator<<(std::ostream& os, const Echipa& echipa);
+    friend void swap(Echipa& a, Echipa& b) noexcept;
 };

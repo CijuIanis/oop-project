@@ -2,6 +2,8 @@
 #include <sstream>
 #include <iomanip>
 
+int Player::totalJucatoriCreati = 0;
+
 double Player::calculateEfficiencyRating() const {
     return pointsPerGame + assistsPerGame * 0.75 + reboundsPerGame * 0.5;
 }
@@ -10,7 +12,9 @@ Player::Player(const std::string& name, int age, const std::string& position,
                double ppg, double apg, double rpg, const Contract& contract)
     : name(name), age(age), position(position),
       pointsPerGame(ppg), assistsPerGame(apg), reboundsPerGame(rpg),
-      contract(contract) {}
+      contract(contract) {
+    totalJucatoriCreati++;
+}
 
 const std::string& Player::getName() const { return name; }
 int Player::getAge() const { return age; }
@@ -19,7 +23,6 @@ double Player::getPointsPerGame() const { return pointsPerGame; }
 double Player::getAssistsPerGame() const { return assistsPerGame; }
 double Player::getReboundsPerGame() const { return reboundsPerGame; }
 const Contract& Player::getContract() const { return contract; }
-
 
 double Player::getImpactScore() const {
     return calculateEfficiencyRating() * (isAllStar() ? 1.5 : 1.0);
@@ -40,12 +43,20 @@ std::string Player::getStatLine() const {
     return oss.str();
 }
 
+int Player::getTotalJucatori() {
+    return totalJucatoriCreati;
+}
+
+void Player::print(std::ostream& os) const {
+    os << "[" << position << "] "
+       << name
+       << " (age: " << age << ") | "
+       << getStatLine() << " | "
+       << (isAllStar() ? "All-Star" : "Role Player") << "\n"
+       << "  " << contract;
+}
+
 std::ostream& operator<<(std::ostream& os, const Player& player) {
-    os << "[" << player.position << "] "
-       << player.name
-       << " (age: " << player.age << ") | "
-       << player.getStatLine() << " | "
-       << (player.isAllStar() ? "All-Star" : "Role Player") << "\n"
-       << "  " << player.contract;
+    player.print(os);
     return os;
 }

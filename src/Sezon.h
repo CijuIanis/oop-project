@@ -1,6 +1,7 @@
 #pragma once
 #include <string>
 #include <vector>
+#include <map>
 #include <ostream>
 #include "Echipa.h"
 
@@ -23,6 +24,9 @@ public:
     const Echipa& getEchipaFavorita() const;
     const Player& getCelMaiBunJucatorDinSezon() const;
     void afiseazaClassament() const;
+
+    // STL: grupeaza echipele dupa conferinta (East/West)
+    std::map<std::string, std::vector<const Echipa*>> getEchipeDupaConferinta() const;
 
     friend std::ostream& operator<<(std::ostream& os, const Sezon& sezon);
 };

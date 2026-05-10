@@ -43,6 +43,13 @@ const Player& Sezon::getCelMaiBunJucatorDinSezon() const {
     return *best;
 }
 
+std::map<std::string, std::vector<const Echipa*>> Sezon::getEchipeDupaConferinta() const {
+    std::map<std::string, std::vector<const Echipa*>> rezultat;
+    for (const auto& echipa : echipe)
+        rezultat[echipa.getConferinta()].push_back(&echipa);
+    return rezultat;
+}
+
 void Sezon::afiseazaClassament() const {
     std::vector<const Echipa*> sorted;
     for (const auto& echipa : echipe)
@@ -66,16 +73,14 @@ void Sezon::afiseazaClassament() const {
             impact.str()
         });
 
-        // colorare podium
         if (i == 0)
-            tabel[i + 1].format().font_color(tabulate::Color::yellow);  // aur
+            tabel[i + 1].format().font_color(tabulate::Color::yellow);
         else if (i == 1)
-            tabel[i + 1].format().font_color(tabulate::Color::cyan);   // "argint"
+            tabel[i + 1].format().font_color(tabulate::Color::cyan);
         else if (i == 2)
-            tabel[i + 1].format().font_color(tabulate::Color::magenta); // "bronz"
+            tabel[i + 1].format().font_color(tabulate::Color::magenta);
     }
 
-    // header bold + centrat + albastru
     tabel[0].format()
         .font_style({tabulate::FontStyle::bold})
         .font_align(tabulate::FontAlign::center)
