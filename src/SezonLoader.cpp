@@ -9,7 +9,7 @@
 
 using json = nlohmann::json;
 
-Sezon SezonLoader::incarcaDinFisier(const std::string& caleFisier) {
+Sezon SezonLoader::incarcaDinFisier(const std::string& caleFisier) const {
     std::ifstream fisier(caleFisier);
     if (!fisier.is_open())
         throw FisierException(caleFisier);
@@ -19,7 +19,6 @@ Sezon SezonLoader::incarcaDinFisier(const std::string& caleFisier) {
 
     std::string an = date["an"];
 
-    // Validare format sezon
     if (!Utilitati::isValidSeason(an))
         throw FisierException(caleFisier + " (format sezon invalid: " + an + ")");
 
@@ -47,11 +46,7 @@ Sezon SezonLoader::incarcaDinFisier(const std::string& caleFisier) {
             if (!Utilitati::isValidContractType(tipContract))
                 throw JucatorException(jJson["nume"], "tip contract invalid: " + tipContract);
 
-            Contract contract(
-                salariu,
-                jJson["contract"]["durata"],
-                tipContract
-            );
+            Contract contract(salariu, jJson["contract"]["durata"], tipContract);
 
             if (pozitie == "PG" || pozitie == "SG") {
                 echipa.adaugaJucator(Guard(

@@ -35,9 +35,10 @@ int main() {
     std::sort(fisiere.begin(), fisiere.end());
 
     std::vector<Sezon> season;
+    SezonLoader loader;
     for (const auto& fisier : fisiere) {
         try {
-            season.push_back(SezonLoader::incarcaDinFisier(fisier));
+            season.push_back(loader.incarcaDinFisier(fisier));
         } catch (const FisierException& e) {
             std::cerr << "[SKIP] " << e.what() << "\n";
         } catch (const JucatorException& e) {
