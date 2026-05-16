@@ -19,7 +19,6 @@ public:
     Echipa(const std::string& nume, const std::string& oras,
            const std::string& conferinta, double salaryCap);
 
-    // Copy constructor si operator= cu copy-and-swap
     Echipa(const Echipa& other);
     Echipa& operator=(Echipa other);
     ~Echipa() = default;
@@ -33,6 +32,7 @@ public:
     void adaugaJucator(const Player& player);
     double getScorImpact() const;
     bool esteSubSalaryCap() const;
+    int getNrJucatoriMaxContract() const;
     const Player& getCelMaiBunJucator() const;
 
     friend std::ostream& operator<<(std::ostream& os, const Echipa& echipa);
