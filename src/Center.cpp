@@ -13,10 +13,10 @@ Center* Center::clone() const {
 }
 
 double Center::calculateRoleScore() const {
-    // Center-ii sunt evaluati dupa recuperari si blocaje
     return reboundsPerGame * 2.0 + blocksPerGame * 3.0 + pointsPerGame * 0.5;
 }
 
+// cppcheck-suppress unusedFunction
 double Center::getBlocksPerGame() const {
     return blocksPerGame;
 }

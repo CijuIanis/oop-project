@@ -11,7 +11,6 @@ namespace Utilitati {
     }
 
     bool isValidSeason(const std::string& season) {
-        // Format asteptat(ex: "1995-96")
         if (season.size() != 7) return false;
         if (season[4] != '-') return false;
         for (int i = 0; i < 4; i++)
@@ -29,12 +28,14 @@ namespace Utilitati {
         return type == "MAX" || type == "MID" || type == "ROOKIE" || type == "MINIMUM";
     }
 
+    // cppcheck-suppress unusedFunction
     std::string formatSalary(double salary) {
         std::ostringstream oss;
         oss << "$" << std::fixed << std::setprecision(2) << salary << "M";
         return oss.str();
     }
 
+    // cppcheck-suppress unusedFunction
     std::string formatStatLine(double ppg, double apg, double rpg) {
         std::ostringstream oss;
         oss << std::fixed << std::setprecision(1)

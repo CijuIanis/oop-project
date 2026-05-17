@@ -18,14 +18,17 @@ Player::Player(const std::string& name, int age, const std::string& position,
 
 // cppcheck-suppress unusedFunction
 const std::string& Player::getName() const { return name; }
+// cppcheck-suppress unusedFunction
 int Player::getAge() const { return age; }
 // cppcheck-suppress unusedFunction
 const std::string& Player::getPosition() const { return position; }
 // cppcheck-suppress unusedFunction
 double Player::getPointsPerGame() const { return pointsPerGame; }
+// cppcheck-suppress unusedFunction
 double Player::getAssistsPerGame() const { return assistsPerGame; }
 // cppcheck-suppress unusedFunction
 double Player::getReboundsPerGame() const { return reboundsPerGame; }
+// cppcheck-suppress unusedFunction
 const Contract& Player::getContract() const { return contract; }
 
 // cppcheck-suppress unusedFunction

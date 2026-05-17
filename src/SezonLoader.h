@@ -4,5 +4,5 @@
 
 class SezonLoader {
 public:
-    Sezon incarcaDinFisier(const std::string& caleFisier) const;
+    static Sezon incarcaDinFisier(const std::string& caleFisier);
 };
