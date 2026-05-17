@@ -14,7 +14,6 @@
 #include "Forward.h"
 #include "Center.h"
 
-// formeaza un numar: maxim o zecimala daca e diferita de 0, altfel fara zecimale
 std::string formatNum(double val) {
     std::ostringstream oss;
     double decimala = val - static_cast<int>(val);
@@ -104,6 +103,7 @@ int main() {
             tabel.add_row({"APG", formatNum(j1->getAssistsPerGame()), formatNum(j2->getAssistsPerGame())});
             tabel.add_row({"RPG", formatNum(j1->getReboundsPerGame()), formatNum(j2->getReboundsPerGame())});
             tabel.add_row({"Impact Score", formatNum(j1->getImpactScore()), formatNum(j2->getImpactScore())});
+            tabel.add_row({"Role Score", formatNum(j1->calculateRoleScore()), formatNum(j2->calculateRoleScore())});
             tabel.add_row({"All-Star", j1->isAllStar() ? "DA" : "NU", j2->isAllStar() ? "DA" : "NU"});
 
             tabel[0].format()
@@ -113,9 +113,9 @@ int main() {
 
             std::cout << "\n" << tabel << "\n";
 
-            if (j1->isBetterThan(*j2))
+            if (j1->getImpactScore() > j2->getImpactScore())
                 std::cout << "Castigatorul: " << j1->getName() << "\n";
-            else if (j2->isBetterThan(*j1))
+            else if (j2->getImpactScore() > j1->getImpactScore())
                 std::cout << "Castigatorul: " << j2->getName() << "\n";
             else
                 std::cout << "Egalitate!\n";
@@ -133,17 +133,7 @@ int main() {
 
                     const Player& best = sezon.getCelMaiBunJucatorDinSezon();
                     std::cout << "\nCel mai bun jucator: " << best.getName() << "\n";
-
-                    if (const Guard* g = dynamic_cast<const Guard*>(&best)) {
-                        std::cout << "  3PT%: " << formatNum(g->getThreePointPercentage() * 100.0) << "%"
-                                  << " | Role Score: " << formatNum(g->calculateRoleScore()) << "\n";
-                    } else if (const Forward* f = dynamic_cast<const Forward*>(&best)) {
-                        std::cout << "  FG%: " << formatNum(f->getFieldGoalPercentage() * 100.0) << "%"
-                                  << " | Role Score: " << formatNum(f->calculateRoleScore()) << "\n";
-                    } else if (const Center* c = dynamic_cast<const Center*>(&best)) {
-                        std::cout << "  BLK: " << formatNum(c->getBlocksPerGame())
-                                  << " | Role Score: " << formatNum(c->calculateRoleScore()) << "\n";
-                    }
+                    std::cout << "  Role Score: " << formatNum(best.calculateRoleScore()) << "\n";
 
                     std::cout << "Favorita la titlu: "
                               << sezon.getEchipaFavorita().getNume() << "\n";
@@ -182,11 +172,10 @@ int main() {
     std::cout << "Impact score: " << p.getImpactScore() << "\n";
     std::cout << "Contract: " << p.getContract() << "\n";
     std::cout << "Role Score: " << p.calculateRoleScore() << "\n";
-    std::cout << "Total jucatori creati: " << Player::getTotalJucatori() << "\n";
 
-    std::cout << "\n--- Test isBetterThan ---\n";
+    std::cout << "\n--- Test comparare jucatori ---\n";
     Guard p2("Test Player 2", 28, "SG", 25.0, 3.0, 4.0, c1, 0.42);
-    if (p2.isBetterThan(p))
+    if (p2.getImpactScore() > p.getImpactScore())
         std::cout << p2.getName() << " e mai bun decat " << p.getName() << "\n";
     else
         std::cout << p.getName() << " e mai bun decat " << p2.getName() << "\n";
@@ -197,6 +186,7 @@ int main() {
         std::cout << "Oras: " << e.getOras() << "\n";
         std::cout << "Salary Cap: " << e.getSalaryCap() << "\n";
         std::cout << "Nr jucatori: " << e.getRoster().size() << "\n";
+        std::cout << "Contracte MAX: " << e.getNrJucatoriMaxContract() << "\n";
     }
 
     std::cout << "\n--- Test Sezon ---\n";

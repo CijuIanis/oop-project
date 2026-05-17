@@ -71,7 +71,7 @@ const Player& Echipa::getCelMaiBunJucator() const {
 
     const Player* best = roster[0].get();
     for (const auto& player : roster)
-        if (player->isBetterThan(*best))
+        if (player->getImpactScore() > best->getImpactScore())
             best = player.get();
     return *best;
 }

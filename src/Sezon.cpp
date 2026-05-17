@@ -37,7 +37,7 @@ const Player& Sezon::getCelMaiBunJucatorDinSezon() const {
     const Player* best = &echipe[0].getCelMaiBunJucator();
     for (const auto& echipa : echipe) {
         const Player& candidat = echipa.getCelMaiBunJucator();
-        if (candidat.isBetterThan(*best))  // folosim isBetterThan aici
+        if (candidat.getImpactScore() > best->getImpactScore())
             best = &candidat;
     }
     return *best;

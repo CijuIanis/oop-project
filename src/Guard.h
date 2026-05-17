@@ -15,5 +15,4 @@ public:
 
     Guard* clone() const override;
     double calculateRoleScore() const override;
-    double getThreePointPercentage() const { return threePointPercentage; }
 };
