@@ -232,6 +232,28 @@ int main() {
         }
     }
 
+    std::cout << "\n--- Test functii noi ---\n";
+    if (!season.empty()) {
+        const Player* bestGuard = season[0].getCelMaiBunGuard();
+        if (bestGuard)
+            std::cout << "Cel mai bun Guard: " << bestGuard->getName() << "\n";
+
+        const Player* bestForward = season[0].getCelMaiBunForward();
+        if (bestForward)
+            std::cout << "Cel mai bun Forward: " << bestForward->getName() << "\n";
+
+        const Player* bestCenter = season[0].getCelMaiBunCenter();
+        if (bestCenter)
+            std::cout << "Cel mai bun Center: " << bestCenter->getName() << "\n";
+
+        if (!season[0].getEchipe().empty()) {
+            const Echipa& echipa = season[0].getEchipe()[0];
+            auto allStars = echipa.getJucatoriAllStar();
+            std::cout << "All-Stars " << echipa.getNume() << ": " << allStars.size() << "\n";
+            std::cout << "Valoare roster: $" << echipa.getValoareRoster() << "M\n";
+        }
+    }
+
     std::cout << "\n--- Test Exceptii ---\n";
     try {
         throw JucatorException("Test Player", "pozitie invalida: XX");

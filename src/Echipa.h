@@ -35,6 +35,12 @@ public:
     int getNrJucatoriMaxContract() const;
     const Player& getCelMaiBunJucator() const;
 
+    // Returneaza lista jucatorilor All-Star din echipa
+    std::vector<const Player*> getJucatoriAllStar() const;
+
+    // Returneaza valoarea totala a tuturor contractelor
+    double getValoareRoster() const;
+
     friend std::ostream& operator<<(std::ostream& os, const Echipa& echipa);
     friend void swap(Echipa& a, Echipa& b) noexcept;
 };

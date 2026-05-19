@@ -1,10 +1,13 @@
 #include "Sezon.h"
+#include "Guard.h"
+#include "Center.h"
 #include <stdexcept>
 #include <algorithm>
 #include <iostream>
 #include <iomanip>
 #include <sstream>
 #include <tabulate/table.hpp>
+#include "Forward.h"
 
 Sezon::Sezon(const std::string& an, const std::string& campioana)
     : an(an), campioana(campioana), nrEchipe(0) {}
@@ -30,6 +33,19 @@ const Echipa& Sezon::getEchipaFavorita() const {
     return *favorita;
 }
 
+const Player* Sezon::getCelMaiBunForward() const {
+    const Player* best = nullptr;
+    for (const auto& echipa : echipe) {
+        for (const auto& player : echipa.getRoster()) {
+            if (dynamic_cast<const Forward*>(player.get())) {
+                if (!best || player->getImpactScore() > best->getImpactScore())
+                    best = player.get();
+            }
+        }
+    }
+    return best;
+}
+
 const Player& Sezon::getCelMaiBunJucatorDinSezon() const {
     if (echipe.empty())
         throw std::runtime_error("Sezonul nu are echipe!");
@@ -41,6 +57,32 @@ const Player& Sezon::getCelMaiBunJucatorDinSezon() const {
             best = &candidat;
     }
     return *best;
+}
+
+const Player* Sezon::getCelMaiBunGuard() const {
+    const Player* best = nullptr;
+    for (const auto& echipa : echipe) {
+        for (const auto& player : echipa.getRoster()) {
+            if (dynamic_cast<const Guard*>(player.get())) {
+                if (!best || player->getImpactScore() > best->getImpactScore())
+                    best = player.get();
+            }
+        }
+    }
+    return best;
+}
+
+const Player* Sezon::getCelMaiBunCenter() const {
+    const Player* best = nullptr;
+    for (const auto& echipa : echipe) {
+        for (const auto& player : echipa.getRoster()) {
+            if (dynamic_cast<const Center*>(player.get())) {
+                if (!best || player->getImpactScore() > best->getImpactScore())
+                    best = player.get();
+            }
+        }
+    }
+    return best;
 }
 
 std::map<std::string, std::vector<const Echipa*>> Sezon::getEchipeDupaConferinta() const {

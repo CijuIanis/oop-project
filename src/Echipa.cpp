@@ -65,6 +65,21 @@ int Echipa::getNrJucatoriMaxContract() const {
     return count;
 }
 
+std::vector<const Player*> Echipa::getJucatoriAllStar() const {
+    std::vector<const Player*> allStars;
+    for (const auto& player : roster)
+        if (player->isAllStar())
+            allStars.push_back(player.get());
+    return allStars;
+}
+
+double Echipa::getValoareRoster() const {
+    double total = 0.0;
+    for (const auto& player : roster)
+        total += player->getContract().getTotalValue();
+    return total;
+}
+
 const Player& Echipa::getCelMaiBunJucator() const {
     if (roster.empty())
         throw std::runtime_error("Echipa nu are jucatori!");
