@@ -13,6 +13,7 @@
 #include "Guard.h"
 #include "Forward.h"
 #include "Center.h"
+#include "Stats.h"
 
 std::string formatNum(double val) {
     std::ostringstream oss;
@@ -218,6 +219,24 @@ int main() {
         throw JucatorException("Test Player", "pozitie invalida: XX");
     } catch (const NBAException& e) {
         std::cout << "NBAException prins: " << e.what() << "\n";
+    }
+
+    std::cout << "\n--- Test Stats ---\n";
+    if (!season.empty()) {
+        auto top5 = Stats::getTopJucatori(season[0].getEchipe(), 5);
+        std::cout << "Top 5 jucatori:\n";
+        for (const auto* p : top5)
+            std::cout << "  " << p->getName() << " - " << formatNum(p->getImpactScore()) << "\n";
+
+        auto media = Stats::getMediaStatistici(season[0].getEchipe());
+        std::cout << "Media PPG: " << formatNum(media.mediaPPG) << "\n";
+        std::cout << "Media APG: " << formatNum(media.mediaAPG) << "\n";
+        std::cout << "Media RPG: " << formatNum(media.mediaRPG) << "\n";
+
+        if (season[0].getEchipe().size() >= 2) {
+            auto rez = Stats::compareEchipe(season[0].getEchipe()[0], season[0].getEchipe()[1]);
+            std::cout << "Castigatoare: " << rez.castigatoare << "\n";
+        }
     }
 
     try {

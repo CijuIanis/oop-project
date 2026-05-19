@@ -61,6 +61,8 @@ add_executable(${MAIN_EXECUTABLE_NAME}
         src/Forward.h
         src/Center.cpp
         src/Center.h
+        src/Stats.cpp
+        src/Stats.h
 )
 target_sources(${MAIN_EXECUTABLE_NAME}
         PRIVATE
@@ -74,6 +76,7 @@ target_sources(${MAIN_EXECUTABLE_NAME}
         src/Guard.cpp
         src/Forward.cpp
         src/Center.cpp
+        src/Stats.cpp
 )
 
 # NOTE: Add all defined targets (e.g. executables, libraries, etc. )
