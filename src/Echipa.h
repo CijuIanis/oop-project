@@ -35,10 +35,12 @@ public:
     int getNrJucatoriMaxContract() const;
     const Player& getCelMaiBunJucator() const;
 
-    // Returneaza lista jucatorilor All-Star din echipa
+    // lista jucatorilor All-Star din echipa
     std::vector<const Player*> getJucatoriAllStar() const;
-
-    // Returneaza valoarea totala a tuturor contractelor
+    // numarul de All-Stars din echipa
+    int getNrAllStars() const;
+    // returneaza true daca echipa are minim 2 All-Stars
+    bool isContender() const;
     double getValoareRoster() const;
 
     friend std::ostream& operator<<(std::ostream& os, const Echipa& echipa);

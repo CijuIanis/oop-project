@@ -265,6 +265,14 @@ int main() {
             std::cout << "All-Stars " << echipa.getNume() << ": " << allStars.size() << "\n";
             std::cout << "Valoare roster: $" << echipa.getValoareRoster() << "M\n";
         }
+        std::cout << "Nr All-Stars: " << season[0].getEchipe()[0].getNrAllStars() << "\n";
+        std::cout << "Este contender: " << season[0].getEchipe()[0].isContender() << "\n";
+
+        const Echipa* castigatoare = Stats::simulateMeci(season[0].getEchipe()[0], season[0].getEchipe()[1]);
+        std::cout << "Castigatoarea meciului: " << castigatoare->getNume() << "\n";
+
+        auto echipeEst = Stats::getEchipeConferinta(season[0].getEchipe(), "East");
+        std::cout << "Echipe East: " << echipeEst.size() << "\n";
     }
 
     std::cout << "\n--- Test TwoWayPlayer ---\n";

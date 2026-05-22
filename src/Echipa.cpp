@@ -73,6 +73,20 @@ std::vector<const Player*> Echipa::getJucatoriAllStar() const {
     return allStars;
 }
 
+// cppcheck-suppress unusedFunction
+int Echipa::getNrAllStars() const {
+    int count = 0;
+    for (const auto& player : roster)
+        if (player->isAllStar())
+            count++;
+    return count;
+}
+
+// cppcheck-suppress unusedFunction
+bool Echipa::isContender() const {
+    return getNrAllStars() >= 2;
+}
+
 double Echipa::getValoareRoster() const {
     double total = 0.0;
     for (const auto& player : roster)

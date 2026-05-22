@@ -6,7 +6,6 @@ namespace Stats {
     // cppcheck-suppress unusedFunction
     std::vector<const Player*> getTopJucatori(const std::vector<Echipa>& echipe, int n) {
         std::vector<const Player*> toti;
-
         for (const auto& echipa : echipe)
             for (const auto& player : echipa.getRoster())
                 toti.push_back(player.get());
@@ -24,7 +23,6 @@ namespace Stats {
     // cppcheck-suppress unusedFunction
     std::vector<const Player*> getTopAllStars(const std::vector<Echipa>& echipe, int n) {
         std::vector<const Player*> allStars;
-
         for (const auto& echipa : echipe)
             for (const auto& player : echipa.getRoster())
                 if (player->isAllStar())
@@ -50,6 +48,22 @@ namespace Stats {
             if (echipa.getScorImpact() > best->getScorImpact())
                 best = &echipa;
         return best;
+    }
+
+    // cppcheck-suppress unusedFunction
+    const Echipa* simulateMeci(const Echipa& e1, const Echipa& e2) {
+        if (e1.getScorImpact() >= e2.getScorImpact())
+            return &e1;
+        return &e2;
+    }
+
+    // cppcheck-suppress unusedFunction
+    std::vector<const Echipa*> getEchipeConferinta(const std::vector<Echipa>& echipe, const std::string& conferinta) {
+        std::vector<const Echipa*> rezultat;
+        for (const auto& echipa : echipe)
+            if (echipa.getConferinta() == conferinta)
+                rezultat.push_back(&echipa);
+        return rezultat;
     }
 
     // cppcheck-suppress unusedFunction
