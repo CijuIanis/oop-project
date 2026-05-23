@@ -10,6 +10,29 @@ Functionalitati principale:
 - Identificarea celui mai bun jucator dintr-un sezon (pentru Tema 1 am calculat prin formula: PPG + APG * 0.75 + RPG * 0.5)
 - Determinarea favoritei la titlu pe baza scorului de impact (am folosit aceeasi formula ca la cel mai bun jucator, iar daca un jucator este All-Star conform unor criterii de puncte, pase sau recuperari, rezultatul este inmultit cu 1.5. Favorita la titlu se afla prin suma tuturor scorurilor de impact ale jucatorilor din fiecare echipa)
 
+Am extins simulatorul cu o ierarhie de mosteniri bazata pe pozitiile jucatorilor. Clasa abstracta `Player` are 4 clase derivate: `Guard`, `Forward`, `Center` si `TwoWayPlayer`, fiecare cu propria formula de evaluare prin `calculateRoleScore()`:
+
+- **Guard** — evaluat dupa pase si procentaj de 3 puncte
+- **Forward** — evaluat dupa versatilitate (puncte + recuperari + FG%)
+- **Center** — evaluat dupa blocaje si recuperari
+- **TwoWayPlayer** — evaluat dupa rating defensiv
+  
+Am introdus si un nou input: "compara", in care poti compara 2 jucatori, acestia confrantandu-se cap la cap prin statistici, precum PPG, APG, RPG, role score etc. Castigorul este bazat pe Impact Score.
+La afisarea roster-ului si a clasamentului am facut prin biblioteca tabulate:
+- **Echipa** - cand afisam jucatorii din echipe cei All-Stars sunt colorati cu verde, iar ceilalti in albastru, iar head-ul tabelului este galben.
+- **Clasament** - aici am colorat numele echipelor care au iesit in top 3 pentru a iesi in evidenta
+Alte functii pe care le-am folosit in Stats pentru a genera **statistici agregate**:
+- top jucatori
+- top All-Stars
+- media statisticilor din sezon
+- simulare meci intre doua echipe
+- echipe pe conferinta
+
+De asemenea, analizat si echipele, uramrind numarul de All-Stars din fiecare echipa, cand le expira contractele jucatorilor si daca o echipa este contender la titlu.
+La final de predare am adaugat si logo-urile echipelor (momentan am pus in JSON scrisul si la echipele care pe parcursul aniilor si-au schimbat logo-ul le-am lasat logo-ul din sezonul actual, dar la tema 3 voi modifica cum trebuie).
+
+
+
 
 
 - **Fără cod de umplutură/fără sens!**
