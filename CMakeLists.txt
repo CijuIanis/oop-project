@@ -65,6 +65,9 @@ add_executable(${MAIN_EXECUTABLE_NAME}
         src/Stats.h
         src/TwoWayPlayer.cpp
         src/TwoWayPlayer.h
+        src/StatLeader.h
+        src/NBALeague.cpp
+        src/NBALeague.h
 )
 target_sources(${MAIN_EXECUTABLE_NAME}
         PRIVATE

@@ -8,6 +8,7 @@
 #include <tabulate/table.hpp>
 #include "Sezon.h"
 #include "SezonLoader.h"
+#include "NBALeague.h"
 #include "Utilitati.h"
 #include "Exceptii.h"
 #include "Guard.h"
@@ -28,24 +29,9 @@ std::string formatNum(double val) {
 }
 
 int main() {
-    std::vector<std::string> fisiere;
-    for (const auto& entry : std::filesystem::directory_iterator("data/seasons/")) {
-        if (entry.path().extension() == ".json") {
-            fisiere.push_back(entry.path().string());
-        }
-    }
-    std::sort(fisiere.begin(), fisiere.end());
-
-    std::vector<Sezon> season;
-    for (const auto& fisier : fisiere) {
-        try {
-            season.push_back(SezonLoader::incarcaDinFisier(fisier));
-        } catch (const FisierException& e) {
-            std::cerr << "[SKIP] " << e.what() << "\n";
-        } catch (const JucatorException& e) {
-            std::cerr << "[SKIP] " << e.what() << "\n";
-        }
-    }
+    NBALeague& liga = NBALeague::getInstance();
+    liga.incarcaSezoane();
+    const std::vector<Sezon>& season = liga.getSezoane();
 
     while (true) {
         std::cout << "\n=== Simulator NBA ===\n";
@@ -65,14 +51,7 @@ int main() {
             std::cin >> an;
             std::cin.ignore();
 
-            const Sezon* sezonGasit = nullptr;
-            for (const auto& sezon : season) {
-                if (sezon.getAn() == an) {
-                    sezonGasit = &sezon;
-                    break;
-                }
-            }
-
+            const Sezon* sezonGasit = liga.gasesteSezon(an);
             if (!sezonGasit) {
                 std::cerr << "Sezonul '" << an << "' nu a fost gasit!\n";
                 continue;
@@ -130,47 +109,39 @@ int main() {
             std::string an;
             std::cin >> an;
 
-            bool gasit = false;
-            for (const auto& sezon : season) {
-                if (sezon.getAn() == an) {
-                    gasit = true;
-                    auto rez = Stats::simulatePlayoff(sezon.getEchipe());
-                    for (const auto& linie : rez.rezultateRunde)
-                        std::cout << linie << "\n";
-                    std::cout << "\nCAMPIOANA NBA: " << rez.campioanaFinals << "\n";
-                    break;
-                }
-            }
-            if (!gasit)
+            const Sezon* sezonGasit = liga.gasesteSezon(an);
+            if (!sezonGasit) {
                 std::cerr << "Sezonul '" << an << "' nu a fost gasit!\n";
+                continue;
+            }
+
+            auto rez = Stats::simulatePlayoff(sezonGasit->getEchipe());
+            for (const auto& linie : rez.rezultateRunde)
+                std::cout << linie << "\n";
+            std::cout << "\nCAMPIOANA NBA: " << rez.campioanaFinals << "\n";
             continue;
         }
 
         try {
-            bool gasit = false;
-            for (const auto& sezon : season) {
-                if (sezon.getAn() == input) {
-                    gasit = true;
-                    std::cout << "\n" << sezon << "\n";
-                    sezon.afiseazaClassament();
-
-                    const Player& best = sezon.getCelMaiBunJucatorDinSezon();
-                    std::cout << "\nCel mai bun jucator: " << best.getName() << "\n";
-                    std::cout << "  Role Score: " << formatNum(best.calculateRoleScore()) << "\n";
-
-                    std::cout << "Favorita la titlu: "
-                              << sezon.getEchipaFavorita().getNume() << "\n";
-
-                    auto conferinte = sezon.getEchipeDupaConferinta();
-                    std::cout << "\nEchipe dupa conferinta:\n";
-                    for (const auto& [conf, echipaList] : conferinte)
-                        std::cout << "  " << conf << ": " << echipaList.size() << " echipe\n";
-
-                    break;
-                }
-            }
-            if (!gasit)
+            const Sezon* sezonGasit = liga.gasesteSezon(input);
+            if (!sezonGasit)
                 throw SezonException(input);
+
+            const Sezon& sezon = *sezonGasit;
+            std::cout << "\n" << sezon << "\n";
+            sezon.afiseazaClassament();
+
+            const Player& best = sezon.getCelMaiBunJucatorDinSezon();
+            std::cout << "\nCel mai bun jucator: " << best.getName() << "\n";
+            std::cout << "  Role Score: " << formatNum(best.calculateRoleScore()) << "\n";
+
+            std::cout << "Favorita la titlu: "
+                      << sezon.getEchipaFavorita().getNume() << "\n";
+
+            auto conferinte = sezon.getEchipeDupaConferinta();
+            std::cout << "\nEchipe dupa conferinta:\n";
+            for (const auto& [conf, echipaList] : conferinte)
+                std::cout << "  " << conf << ": " << echipaList.size() << " echipe\n";
         } catch (const SezonException& e) {
             std::cerr << e.what() << "\n";
         }
@@ -270,7 +241,7 @@ int main() {
             std::cout << "East: " << echipeEst.size() << " echipe | West: " << echipeVest.size() << " echipe\n";
         }
 
-        // test simulare playoff
+        // Test simulare playoff
         auto rez = Stats::simulatePlayoff(season[0].getEchipe());
         std::cout << "\nSimulare Playoff " << season[0].getAn() << ":\n";
         std::cout << "Campioana East: " << rez.campioanaEast << "\n";
@@ -282,7 +253,7 @@ int main() {
     if (!season.empty()) {
         const auto& echipe = season[0].getEchipe();
 
-        // double -> lider jucator la puncte/meci
+        // double -> lider la puncte/meci
         Stats::StatLeader<double> liderPuncte(
             "Puncte/meci", [](const Player& p) { return p.getPointsPerGame(); });
         if (const Player* top = liderPuncte.getLider(echipe))
@@ -290,14 +261,14 @@ int main() {
                       << top->getName() << " ("
                       << formatNum(liderPuncte.getValoare(*top)) << ")\n";
 
-        // double -> top 3 jucatori la impact
+        // double -> top 3 la impact
         Stats::StatLeader<double> liderImpact(
             "Impact", [](const Player& p) { return p.getImpactScore(); });
         std::cout << "Top 3 impact:\n";
         for (const auto& [player, val] : liderImpact.getTopN(echipe, 3))
             std::cout << "  " << player->getName() << " - " << formatNum(val) << "\n";
 
-        // int -> acelasi template
+        // int -> acelasi template, alt tip (demonstreaza ca e generic)
         Stats::StatLeader<int> liderVarsta(
             "Varsta", [](const Player& p) { return p.getAge(); });
         std::cout << "Top 3 ca varsta:\n";
