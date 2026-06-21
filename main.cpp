@@ -41,7 +41,7 @@ int main() {
         std::cout << "Sezoane disponibile:\n";
         for (auto i = 0u; i < season.size(); i++)
             std::cout << "  " << season[i].getAn() << "\n";
-        std::cout << "\nIntroduceti comanda [anul sezonului (ex:2022-23) / 'compara' / 'playoff' / 'simulare' / 'allstars' / 'logo' / 'exit']: ";
+        std::cout << "\nIntroduceti comanda [anul sezonului (ex:2022-23) / 'compara' / 'playoff' / 'simulare' / 'allstars' / 'logo' / 'campion' / 'exit']: ";
 
         std::string input;
         std::cin >> input;
@@ -197,6 +197,21 @@ int main() {
             }
 
             Gui::afiseazaLogos(sezonGasit->getEchipe(), "Logo-uri " + an);
+            continue;
+        }
+
+        if (input == "campion") {
+            std::cout << "Introduceti anul sezonului: ";
+            std::string an;
+            std::cin >> an;
+
+            const Sezon* sezonGasit = liga.gasesteSezon(an);
+            if (!sezonGasit) {
+                std::cerr << "Sezonul '" << an << "' nu a fost gasit!\n";
+                continue;
+            }
+
+            Gui::afiseazaCampioana(sezonGasit->getEchipe(), an);
             continue;
         }
 

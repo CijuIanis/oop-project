@@ -4,6 +4,9 @@
 #include "Echipa.h"
 
 namespace Gui {
-    // deschide o fereastra cu logo-urile echipelor
+    // fereastra cu logo-urile echipelor dintr-un sezon
     void afiseazaLogos(const std::vector<Echipa>& echipe, const std::string& titlu);
+
+    // fereastra cu finala NBA si campioana (logo vs logo + campioana mare)
+    void afiseazaCampioana(const std::vector<Echipa>& echipe, const std::string& an);
 }

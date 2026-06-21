@@ -3,19 +3,19 @@
 
 // cppcheck-suppress unusedFunction
 void LoggerConsola::onInceputPlayoff(const std::string& an) {
-    std::cout << "[LOG] Incepe playoff-ul sezonului " << an << "\n";
+    std::cout << "[Incepe playoff-ul sezonului " << an << "\n";
 }
 
 // cppcheck-suppress unusedFunction
 void LoggerConsola::onMeci(const Echipa& castigatoare, const Echipa& invinsa,
                            const std::string& runda) {
-    std::cout << "[LOG] " << runda << ": " << castigatoare.getNume()
+    std::cout << runda << ": " << castigatoare.getNume()
               << " a invins " << invinsa.getNume() << "\n";
 }
 
 // cppcheck-suppress unusedFunction
 void LoggerConsola::onCampioanaNBA(const Echipa& campioana) {
-    std::cout << "[LOG] CAMPIOANA NBA: " << campioana.getNume()
+    std::cout << " CAMPIOANA NBA: " << campioana.getNume()
               << " (logo: " << campioana.getLogoPath() << ")\n";
 }
 
